@@ -22,6 +22,7 @@ jobs:
       - run: echo "${{ secrets.DEV_KEY }}" > "$HOME/.ssh/DEV_KEY"
       - run: chmod 600 "$HOME/.ssh/DEV_KEY"
       # Deploy bild
+      - run: cd .svelte-kit && rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --archive --compress --delete . root@82.148.28.242:/var/www/zakutok/.svelte-kit/
       - run: cd build && rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --archive --compress --delete . root@82.148.28.242:/var/www/zakutok/build/
       # Git pull and restart app
       - name: git pull on sever
