@@ -40,13 +40,17 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
             В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
             </p>
             <br>
-            <a href="https://www.instagram.com/mechta_tkani/">Инстаграм Мечты</a>
+            <p>Инстаграм Мечты</p>
+            <a href="https://www.instagram.com/mechta_tkani/">instagram</a>
             <br>
-            <a href="https://www.instagram.com/zakutokmediaru/">Наш сайт</a>
+            <p>Наш сайт</p>
+            <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
             <br>
+            <p>Наш Инстаграм</p>
             <a href="https://www.instagram.com/zakutokmediaru/">Наша Инста</a>
             <br>
-            <a href="https://t.me/Koko3kote">Намисать в Телегу</a>
+            <p>Написать</p>
+            <a href="https://t.me/Koko3kote">Телеграм</a>
              ]]>
       </description>
       <guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid>

@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "App",
+      name: "App2",
       cwd: "/var/www/zakutok/",
       script: "svelte-kit preview",
       instances: 1,
