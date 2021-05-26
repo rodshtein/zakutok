@@ -32,6 +32,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       <itunes:category text="Non-Profit" />
     </itunes:category>
     <item>
+      <itunes:title>Кто ищет ткани в Италии</itunes:title>
       <title>1. В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</title>
       <pubDate>Mon, 27 May 2021 00:00:00 GMT</pubDate>
       <description>
