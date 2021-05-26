@@ -5,7 +5,30 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
   version="2.0">
   <channel>
     <title>Gosuch</title>
-    <description>Подкаст о людях, занимающихся интересным делом. Мы ничего не понимаем в том, что они делают, поэтому приглашаем их и разбираемся.</description>
+    <description><![CDATA[
+      <p>
+        Подкаст о людях, занимающихся интересным делом. Мы ничего не понимаем в том, что они делают, поэтому приглашаем их и разбираемся.
+        </p>
+        <br>
+        <p>
+          Наш сайт
+          <br>
+          <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
+        </p>
+
+
+        <p>
+          Наш Инстаграм
+          <br>
+          <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
+        </p>
+
+        <p>
+          Пишите нам в
+          <br>
+          <a href="https://t.me/Koko3kote">Телеграм</a>
+        </p>
+      ]]></description>
     <copyright>СС BY-NC-ND 4.0</copyright>
     <language>ru</language>
     <link>https://zakutokmedia.ru/gosuch/rss</link>
@@ -40,17 +63,32 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
             В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
             </p>
             <br>
-            <p>Инстаграм Мечты</p>
-            <a href="https://www.instagram.com/mechta_tkani/">instagram</a>
-            <br>
-            <p>Наш сайт</p>
-            <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
-            <br>
-            <p>Наш Инстаграм</p>
-            <a href="https://www.instagram.com/zakutokmediaru/">Наша Инста</a>
-            <br>
-            <p>Написать</p>
-            <a href="https://t.me/Koko3kote">Телеграм</a>
+            <p>
+              Инстаграм Мечты
+              <br>
+              <a href="https://www.instagram.com/mechta_tkani/">instagram</a>
+            </p>
+
+
+            <p>
+              Наш сайт
+              <br>
+              <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
+            </p>
+
+
+            <p>
+              Наш Инстаграм
+              <br>
+              <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
+            </p>
+
+            <p>
+              Пишите нам в
+              <br>
+              <a href="https://t.me/Koko3kote">Телеграм</a>
+            </p>
+
              ]]>
       </description>
       <guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid>
