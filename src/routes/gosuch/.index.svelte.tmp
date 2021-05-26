@@ -1,0 +1,22 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
+<script>
+	import AudioPlayer, { stopAll } from '$lib/AudioPlayer.svelte.dev';
+</script>
+
+
+<svelte:head>
+	<title>Выпуски</title>
+</svelte:head>
+
+<AudioPlayer
+	src="https://sveltejs.github.io/assets/music/strauss.mp3"
+	title="The Blue Danube Waltz"
+	composer="Johann Strauss"
+	performer="European Archive"
+/>
+
+<style>
+</style>

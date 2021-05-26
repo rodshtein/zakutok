@@ -1,0 +1,100 @@
+@import "fonts.css";
+
+:root {
+  font-family: 'Golos', Helvetica, Arial, sans-serif;
+  --color-font: #fff;
+  --color-bg: #171717;
+  --color-link: #FFFF54;
+  --color-borders: #FFFF54;
+
+}
+
+* {
+  font-feature-settings: "lnum" 1,"pnum" 1,"kern" 1,"liga" 1;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  font-variant-ligatures: contextual;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Golos;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 100px 65px 65px;
+  background-color: var(--color-bg);
+  color: var(--color-font);
+}
+@media (max-width: 739px) {
+  body {
+    margin: 20px 20px 20px;
+  }
+}
+
+#svelte {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+
+.h2 {
+  font-family: Golos;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 108%;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1281px) {
+  .h2{
+    font-size: 100px;
+  }
+}
+
+.h3 {
+  font-family: Golos;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.p {
+  text-transform: uppercase;
+}
+
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+

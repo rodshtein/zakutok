@@ -1,0 +1,26 @@
+@font-face {
+	font-family: Golos;
+	src:
+		url('/fonts/Golos-Text_Black.woff2') format('woff2'),
+		url('/fonts/Golos-Text_Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Golos;
+	src:
+		url('/fonts/Golos-Text_Bold.woff2') format('woff2'),
+		url('/fonts/Golos-Text_Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Golos;
+	src:
+		url('/fonts/Golos-Text_Medium.woff2') format('woff2'),
+		url('/fonts/Golos-Text_Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
