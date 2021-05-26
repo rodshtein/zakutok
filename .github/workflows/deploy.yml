@@ -31,5 +31,5 @@ jobs:
             cd /var/www/zakutok
             pm2 restart Public\ App
           host: 82.148.28.242
-          username: admin
+          username: root
           privateKey: ${{ secrets.DEV_KEY }}
