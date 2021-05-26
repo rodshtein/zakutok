@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: '14.x'
       # Build
+      - run: npm install
       - run: npm run build
       # Setup key
       - run: set -eu
