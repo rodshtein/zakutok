@@ -8,10 +8,6 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
     <description><![CDATA[
       <p>
         Подкаст о людях, занимающихся интересным делом. Мы ничего не понимаем в том, что они делают, поэтому приглашаем их и разбираемся.
-        </p>
-        <br>
-        <br>
-        <p>
           Наш сайт <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
         </p>
       ]]></description>
