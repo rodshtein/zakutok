@@ -14,7 +14,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       rel="self"
       type="application/rss+xml" />
     <itunes:subtitle>Говорим о крутых вещах в которых мы ничего не понимаем.</itunes:subtitle>
-    <itunes:author>Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
+    <itunes:author>Лида, Никита и Костя</itunes:author>
     <itunes:explicit>true</itunes:explicit>
     <itunes:owner>
       <itunes:name>Gosuch</itunes:name>
@@ -73,7 +73,6 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       <enclosure type="audio/mpeg" url="https://zakutokmedia.ru/shows/gosuch/1.mp3" length="23235189" />
       <itunes:episode>1</itunes:episode>
       <itunes:duration>48:18</itunes:duration>
-      <itunes:author>В гостях Наташа Балахонцева, ведущие: Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
       <itunes:explicit>true</itunes:explicit>
       <itunes:summary>В этом выпуске мы задаем глупые вопросы о тканях Наташе Балахонцевой</itunes:summary>
       <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/>
