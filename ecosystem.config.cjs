@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "Public App",
+      name: "App",
       cwd: "/var/www/zakutok/",
       script: "svelte-kit preview",
       instances: 1,
@@ -13,10 +13,6 @@ module.exports = {
       },
       autorestart: true,
       max_memory_restart: "1G",
-      env: {
-        PORT: 3000,
-        NODE_ENV: "production",
-      }
     }
   ]
 };

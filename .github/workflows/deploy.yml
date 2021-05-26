@@ -30,7 +30,7 @@ jobs:
         with:
           command: |
             cd /var/www/zakutok
-            pm2 restart Public\ App
+            pm2 restart App
           host: 82.148.28.242
           username: root
           privateKey: ${{ secrets.DEV_KEY }}

@@ -3,13 +3,13 @@
 </script>
 
 <script>
-import PhotoTim from '../../static/team/tim.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoKostia from '../../static/team/kostia.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoLida from '../../static/team/lida.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoNikita from '../../static/team/nikita.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoMisha from '../../static/team/misha.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoNatasha from '../../static/team/natasha.png?w=120;240;580&format=webp;avif;jpg&srcset'
-import PhotoAlena from '../../static/team/alena.png?w=120;240;580&format=webp;avif;jpg&srcset'
+import PhotoTim from '../../static/team/tim.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoKostia from '../../static/team/kostia.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoLida from '../../static/team/lida.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoNikita from '../../static/team/nikita.png?w=120;580&format=webp;avif;jpg&srcset'
+import PhotoMisha from '../../static/team/misha.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoNatasha from '../../static/team/natasha.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoAlena from '../../static/team/alena.png?w=120;240&format=webp;avif;jpg&srcset'
 </script>
 
 <svelte:head>
@@ -30,7 +30,6 @@ section.podcast
         img(
           alt='Тимофей, соведущий'
           srcset!='{PhotoTim}' type="image/webp"
-          src!='{PhotoTim}'
           width='120px'
           height='120px'
           )
@@ -40,7 +39,6 @@ section.podcast
         img(
           alt='Костя, ведущий'
           srcset!='{PhotoKostia}' type="image/webp"
-          src!='{PhotoKostia}'
           width='120px'
           height='120px'
           )
@@ -71,7 +69,6 @@ section.podcast
         img(
           alt='Костя, соведущий'
           srcset!='{PhotoKostia}' type="image/webp"
-          src!='{PhotoKostia}'
           width='120px'
           height='120px'
           )
@@ -81,7 +78,6 @@ section.podcast
         img(
           alt='Никита, соведущий'
           srcset!='{PhotoNikita}' type="image/webp"
-          src!='{PhotoNikita}'
           width='120px'
           height='120px'
           )
@@ -91,7 +87,6 @@ section.podcast
         img(
           alt='Лида, соведущая'
           srcset!='{PhotoLida}' type="image/webp"
-          src!='{PhotoLida}'
           width='120px'
           height='120px'
           )
@@ -100,7 +95,7 @@ section.podcast
 
   h2.h3 Послушать
   .links
-    a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
+    a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
 
 section.podcast
   h1.logotype.five-cents Пятицентовая поэзия
@@ -114,7 +109,6 @@ section.podcast
         img(
           alt='Костя, ведущий'
           srcset!='{PhotoKostia}' type="image/webp"
-          src!='{PhotoKostia}'
           width='120px'
           height='120px'
           )
@@ -143,7 +137,6 @@ section.about
       img(
         alt='Костя, ведущий'
         srcset!='{PhotoKostia}' type="image/webp"
-        src!='{PhotoKostia}'
         width='120px'
         height='120px'
         )
@@ -154,7 +147,6 @@ section.about
       img(
         alt='Лида, соведущая'
         srcset!='{PhotoLida}' type="image/webp"
-        src!='{PhotoLida}'
         width='120px'
         height='120px'
         )
@@ -165,7 +157,6 @@ section.about
       img(
         alt='Никита, соведущий'
         srcset!='{PhotoNikita}' type="image/webp"
-        src!='{PhotoNikita}'
         width='120px'
         height='120px'
         )
@@ -176,7 +167,6 @@ section.about
       img(
         alt='Тимофей, соведущий'
         srcset!='{PhotoTim}' type="image/webp"
-        src!='{PhotoTim}'
         width='120px'
         height='120px'
         )
@@ -187,7 +177,6 @@ section.about
       img(
         alt='Миша, делает красиво'
         srcset!='{PhotoMisha}' type="image/webp"
-        src!='{PhotoMisha}'
         width='120px'
         height='120px'
         )
@@ -198,7 +187,6 @@ section.about
       img(
         alt='Алёна, даёт денег'
         srcset!='{PhotoAlena}' type="image/webp"
-        src!='{PhotoAlena}'
         width='120px'
         height='120px'
         )
@@ -209,7 +197,6 @@ section.about
       img(
         alt='Наташа, Продвигает'
         srcset!='{PhotoNatasha}' type="image/webp"
-        src!='{PhotoNatasha}'
         width='120px'
         height='120px'
         )
