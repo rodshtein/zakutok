@@ -10,23 +10,9 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
         Подкаст о людях, занимающихся интересным делом. Мы ничего не понимаем в том, что они делают, поэтому приглашаем их и разбираемся.
         </p>
         <br>
+        <br>
         <p>
-          Наш сайт
-          <br>
-          <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
-        </p>
-
-
-        <p>
-          Наш Инстаграм
-          <br>
-          <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
-        </p>
-
-        <p>
-          Пишите нам в
-          <br>
-          <a href="https://t.me/Koko3kote">Телеграм</a>
+          Наш сайт <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
         </p>
       ]]></description>
     <copyright>СС BY-NC-ND 4.0</copyright>
@@ -64,25 +50,23 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
             </p>
             <br>
             <p>
-              Инстаграм Мечты
+              Инстаграм «Мечты»
               <br>
-              <a href="https://www.instagram.com/mechta_tkani/">instagram</a>
+              <a href="https://www.instagram.com/mechta_tkani/">mechta_tkani</a>
             </p>
-
-
+            <br>
             <p>
               Наш сайт
               <br>
               <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
             </p>
-
-
+            <br>
             <p>
               Наш Инстаграм
               <br>
               <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
             </p>
-
+            <br>
             <p>
               Пишите нам в
               <br>
