@@ -100,15 +100,7 @@ section.podcast
 
   h2.h3 Послушать
   .links
-    a(href='https://podcasts.apple.com/podcast/id1549369792?mt=2' target='_blank') Apple Podcasts
-    a(href='https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODM0NGVkMC9wb2RjYXN0L3Jzcw' target='_blank') Google Podcasts
-    a(href='https://castbox.fm/vic/1549369792' target='_blank') Castbox
-    a(href='https://overcast.fm/itunes1549369792' target='_blank') Overcast
-    a(href='https://pca.st/nc6mbk5o' target='_blank') Pocket Casts
-    a(href='https://open.spotify.com/show/0LDb8JioFYVGlcJivDQ2uP' target='_blank') Spotify
-    a(href='https://castro.fm/itunes/1549369792' target='_blank') Castro
-    a(href='https://music.yandex.ru/album/13523721' target='_blank') Я.Музыка
-    a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
+    a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
 section.podcast
   h1.logotype.five-cents Пятицентовая поэзия
