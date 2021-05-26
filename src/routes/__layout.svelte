@@ -8,7 +8,6 @@
 	$: section = $page.path.split('/')[1];
 </script>
 
-<!-- <Nav {section}/> -->
 
 {#if $navigating}
 	<PreloadingIndicator/>
