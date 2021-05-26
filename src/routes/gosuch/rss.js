@@ -13,7 +13,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       href="https://zakutokmedia.ru/gosuch/rss"
       rel="self"
       type="application/rss+xml" />
-    <itunes:subtitle>Говорим с людьми о крутых проектах в которых мы ничего не понимаем.</itunes:subtitle>
+    <itunes:subtitle>Говорим о крутых вещах в которых мы ничего не понимаем.</itunes:subtitle>
     <itunes:author>Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
     <itunes:explicit>true</itunes:explicit>
     <itunes:owner>
@@ -32,17 +32,20 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       <itunes:category text="Non-Profit" />
     </itunes:category>
     <item>
-      <title>1. В этом выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</title>
+      <title>1. В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</title>
       <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
       <description>
         <![CDATA[
           <p>
-            Выпуск №1. В этом выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+            В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
             </p>
+            <br>
             <a href="https://www.instagram.com/mechta_tkani/">Инстаграм Мечты</a>
-
-            <a href="https://www.instagram.com/zakutokmediaru/">Наша сайт</a>
+            <br>
+            <a href="https://www.instagram.com/zakutokmediaru/">Наш сайт</a>
+            <br>
             <a href="https://www.instagram.com/zakutokmediaru/">Наша Инста</a>
+            <br>
             <a href="https://t.me/Koko3kote">Намисать в Телегу</a>
              ]]>
       </description>
@@ -52,7 +55,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       <itunes:duration>48:18</itunes:duration>
       <itunes:author>В гостях Наташа Балахонцева, ведущие: Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
       <itunes:explicit>true</itunes:explicit>
-      <itunes:summary>В этом выпуске мы задаем глупые о тканях Наташе Балахонцевой</itunes:summary>
+      <itunes:summary>В этом выпуске мы задаем глупые вопросы о тканях Наташе Балахонцевой</itunes:summary>
       <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/>
     </item>
   </channel>
