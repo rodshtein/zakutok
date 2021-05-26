@@ -14,16 +14,15 @@ jobs:
         with:
           node-version: '14.x'
       # Build
-      - run: npm install
-      - run: npm run build
+      # - run: npm install
+      # - run: npm run build
       # Setup key
       - run: set -eu
       - run: mkdir "$HOME/.ssh"
       - run: echo "${{ secrets.DEV_KEY }}" > "$HOME/.ssh/DEV_KEY"
       - run: chmod 600 "$HOME/.ssh/DEV_KEY"
       # Deploy bild
-      - run: .svelte-kit/build && rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --archive --compress --delete . admin@82.148.28.242:/var/www/zakutok/.svelte-kit/build/
-      - run: .svelte-kit/build && rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --archive --compress --delete . admin@82.148.28.242:/var/www/zakutok/.svelte-kit/build/
+      - run: /build && rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --archive --compress --delete . admin@82.148.28.242:/var/www/zakutok/build/
       # Git pull and restart app
       - name: git pull on sever
         uses: garygrossgarten/github-action-ssh@release
