@@ -98,7 +98,7 @@ section.podcast
         a.host(href='https://www.instagram.com/pihora/' target='_blank') Лида
           span Соведущая
 
-  h2.h3 Послушать
+  h2.h3 Послушать новый
   .links
     a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
