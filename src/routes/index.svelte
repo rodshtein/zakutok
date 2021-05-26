@@ -95,7 +95,7 @@ section.podcast
 
   h2.h3 Послушать
   .links
-    a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
+    a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
 section.podcast
   h1.logotype.five-cents Пятицентовая поэзия
