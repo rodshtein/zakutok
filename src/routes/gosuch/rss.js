@@ -5,7 +5,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
   version="2.0">
   <channel>
     <title>Gosuch</title>
-    <description> Подкаст о людях, занимающихся интересным делом. Мы ничего не понимаем в том, что они делают, поэтому приглашаем их и разбираемся. Наш сайт zakutokmedia.ru </description>
+    <description> Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем. Наш сайт zakutokmedia.ru </description>
     <copyright>СС BY-NC-ND 4.0</copyright>
     <language>ru</language>
     <link>https://zakutokmedia.ru/gosuch/rss</link>
@@ -13,7 +13,7 @@ const renderXmlRssFeed = () => `<?xml version='1.0' encoding='UTF-8'?>
       href="https://zakutokmedia.ru/gosuch/rss"
       rel="self"
       type="application/rss+xml" />
-    <itunes:subtitle>Говорим о крутых вещах в которых мы ничего не понимаем.</itunes:subtitle>
+    <itunes:subtitle>Говорим о интересных делах в которых ничего не понимаем.</itunes:subtitle>
     <itunes:author>Лида, Никита и Костя</itunes:author>
     <itunes:explicit>true</itunes:explicit>
     <itunes:owner>
