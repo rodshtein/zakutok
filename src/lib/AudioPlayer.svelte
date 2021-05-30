@@ -44,6 +44,15 @@
 	></audio>
 </article>
 
+<!--
+<AudioPlayer
+	src="https://sveltejs.github.io/assets/music/strauss.mp3"
+	title="The Blue Danube Waltz"
+	composer="Johann Strauss"
+	performer="European Archive"
+/> -->
+
+
 <style>
 	article { margin: 0 0 1em 0; max-width: 800px }
 	h2, p { margin: 0 0 0.3em 0; }

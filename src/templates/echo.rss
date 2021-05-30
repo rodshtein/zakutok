@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title> Точка (звук) | Эхо Москвы </title>
+    <link>https://echo.msk.ru/programs/tochka/</link>
+    <atom:link href="https://echo.msk.ru/programs/tochka/rss-audio.xml" type="application/rss+xml" />
+    <description>
+      Точка (звук) на Эхе Москвы.
+      Ведущие:
+      Александр Плющев, Сергей Оселедько
+    </description>
+    <image>
+      <title>Точка (звук) | Эхо Москвы</title>
+      <link>https://echo.msk.ru/programs/tochka/</link>
+      <url>https://echo.msk.ru/att/element-508449-picture-165.jpg</url>
+      <width>100</width>
+      <height>67</height>
+    </image>
+    <managingEditor>info@echo.msk.ru (Эхо Москвы)</managingEditor>
+    <language>ru-ru</language>
+    <copyright></copyright>
+    <lastBuildDate>Sat, 29 May 2021 10:08:56 +0300</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Эхо Москвы</itunes:name>
+      <itunes:email>info@echo.msk.ru</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Politics">
+      <itunes:category text="News" />
+    </itunes:category>
+    <ttl>1440</ttl>
+    <item>
+      <title>
+        Точка : Русский StarLink, Дуров против Apple, Илон Маск на госфоруме
+      </title>
+      <link>https://echo.msk.ru/programs/tochka/2842204-echo/</link>
+      <description>
+        &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot;
+        src=&quot;https://echo.msk.ru/files/avatar_s/3414778.gif&quot; /&gt;
+        &lt;p&gt;Гости:
+
+        &lt;a href=&quot;https://echo.msk.ru/guests/589512-echo/&quot;&gt;Григорий Бакунов&lt;/a&gt;
+        ,
+        &lt;a href=&quot;https://echo.msk.ru/guests/689243-echo/&quot;&gt;Павел Кушелев&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p&gt;Ведущие:
+
+        &lt;a href=&quot;https://echo.msk.ru/contributors/52/&quot;&gt;Александр Плющев&lt;/a&gt;
+        ,
+        &lt;a href=&quot;https://echo.msk.ru/guests/809336-echo/&quot;&gt;Сергей Оселедько&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+      </description>
+      <author>info@echo.msk.ru (Эхо Москвы)</author>
+      <guid>http://cdn.echo.msk.ru/snd/2021-05-23-tochka-2105-3460882.mp3</guid>
+      <enclosure url="http://cdn.echo.msk.ru/snd/2021-05-23-tochka-2105-3460882.mp3" length="41334912"
+        type="audio/mpeg" />
+      <itunes:duration>53:31</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <pubDate>Sun, 23 May 2021 21:05:00 +0300</pubDate>
+    </item>
+  </channel>
+</rss>

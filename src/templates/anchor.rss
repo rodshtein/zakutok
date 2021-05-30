@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	version="2.0"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:anchor="https://anchor.fm/xmlns">
+	<channel>
+		<title>
+			<![CDATA[Пятицентовая поэзия]]>
+		</title>
+		<description>
+			<![CDATA[Подкаст о поэзии, прозе и поэтах Владивостока. Поэтом можешь ты не быть, а, в общем-то, и не обязан. Zakutokmedia.ru]]>
+		</description>
+		<link>https://kokovikhin.digital/zakutokmediaru</link>
+		<atom:link href="https://anchor.fm/s/5573ac44/podcast/rss" rel="self" type="application/rss+xml" />
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+		<image>
+			<url>
+				https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/14236441/14236441-1620363800187-8ef1f8efe3319.jpg
+			</url>
+			<title>Пятицентовая поэзия</title>
+			<link>https://kokovikhin.digital/zakutokmediaru</link>
+		</image>
+		<generator>Anchor Podcasts</generator>
+		<lastBuildDate>Thu, 27 May 2021 21:20:18 GMT</lastBuildDate>
+		<author>
+			<![CDATA[Konstantin Kokovikhin]]>
+		</author>
+		<copyright>
+			<![CDATA[Konstantin Kokovikhin]]>
+		</copyright>
+		<language>
+			<![CDATA[ru]]>
+		</language>
+		<itunes:author>Konstantin Kokovikhin</itunes:author>
+		<itunes:summary>Подкаст о поэзии, прозе и поэтах Владивостока. Поэтом можешь ты не быть, а, в общем-то, и не обязан.
+			Zakutokmedia.ru</itunes:summary>
+		<itunes:type>episodic</itunes:type>
+		<itunes:owner>
+			<itunes:name>Konstantin Kokovikhin</itunes:name>
+			<itunes:email>podcasts60+5573ac44@anchor.fm</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:category text="Arts" />
+		<itunes:image
+			href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/14236441/14236441-1620363800187-8ef1f8efe3319.jpg" />
+		<item>
+			<title>
+				<![CDATA[Коля Вороновский]]>
+			</title>
+			<description>
+				<![CDATA[<p>В гостях у «Пятицентовой поэзии» Николай Вороновский, соорганизатор локального движения «Голос Логоса». Обсудили с Колей комьюнити: влияет, помогает или мешает молодому поэту? Коля делился своей историей на пути к рифмам и, конечно, читал стихи: из раннего и совсем свежего. Подписывайтесь на интаграм-канал подкастерского лейбла <a href="https://www.instagram.com/zakutokmediaru/">Zakutokmedia.ru</a></p>
+]]>
+			</description>
+			<link>https://anchor.fm/five-cent-poetry/episodes/ep-e118631</link>
+			<guid isPermaLink="false">d80fcfcb-9677-49da-a5f6-ef3f3c64ab21</guid>
+			<dc:creator>
+				<![CDATA[Konstantin Kokovikhin]]>
+			</dc:creator>
+			<pubDate>Thu, 20 May 2021 06:47:18 GMT</pubDate>
+			<enclosure
+				url="https://anchor.fm/s/5573ac44/podcast/play/33871393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-20%2Ffe7bf560-1d9f-f2ea-103e-b8c864d85450.mp3"
+				length="10917347" type="audio/mpeg" />
+			<itunes:summary>&lt;p&gt;В гостях у «Пятицентовой поэзии» Николай Вороновский, соорганизатор локального движения
+				«Голос Логоса». Обсудили с Колей комьюнити: влияет, помогает или мешает молодому поэту? Коля делился своей
+				историей на пути к рифмам и, конечно, читал стихи: из раннего и совсем свежего. Подписывайтесь на интаграм-канал
+				подкастерского лейбла &lt;a
+				href=&quot;https://www.instagram.com/zakutokmediaru/&quot;&gt;Zakutokmedia.ru&lt;/a&gt;&lt;/p&gt;
+			</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>1364</itunes:duration>
+			<itunes:image
+				href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/14236441/14236441-1621485657439-3c8340127d7ab.jpg" />
+			<itunes:season>1</itunes:season>
+			<itunes:episode>3</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+	</channel>
+</rss>

@@ -27,9 +27,7 @@ body {
   margin: 100px 65px 65px;
   background-color: var(--color-bg);
   color: var(--color-font);
-}
-@media (max-width: 739px) {
-  body {
+  @media ( width < 740px ){
     margin: 20px 20px 20px;
   }
 }
@@ -64,10 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0em;
   text-align: left;
   text-transform: uppercase;
-}
-
-@media (min-width: 1281px) {
-  .h2{
+  @media ( width > 1280px ){
     font-size: 100px;
   }
 }
@@ -83,8 +78,17 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.p {
-  text-transform: uppercase;
+p {
+  font-family: Golos;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 103%;
+  letter-spacing: 0em;
+  text-align: left;
+  @media ( width > 1280px ){
+    font-size: 52px;
+  }
 }
 
 

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/"
+  xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss"
+  xmlns:psc="https://podlove.org/simple-chapters/">
+  <channel>
+    <title>Gosuch</title>
+    <link>https://zakutokmedia.ru</link>
+    <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml" />
+    <description> Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому
+      вопросами глупыми их пытем. Наш сайт zakutokmedia.ru </description>
+    <image>
+      <title>Gosuch Подкаст</title>
+      <link>https://zakutokmedia.ru</link>
+      <url>https://zakutokmedia.ru/covers/gosuch.jpg</url>
+    </image>
+    <author>Лида, Никита и Костя</author>
+    <itunes:author>Лида, Никита и Костя</itunes:author>
+    <copyright>СС BY-NC-ND 4.0</copyright>
+    <language>ru</language>
+    <spotify:countryOfOrigin>ru</spotify:countryOfOrigin>
+    <managingEditor>kk@kokovikhin.digital (Костя Коковихин)</managingEditor>
+    <webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster>
+    <pubDate>Sat, 29 May 2021 09:31:45 GMT</pubDate>
+    <lastBuildDate>Sat, 29 May 2021 09:31:45 GMT</lastBuildDate>
+    <itunes:title>Говорим о интересных делах в которых ничего не понимаем.</itunes:title>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Zakutok Media</itunes:name>
+      <itunes:email>kk@kokovikhin.digital</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg" />
+    <itunes:category text="Comedy">
+      <itunes:category text="Comedy Interviews" />
+    </itunes:category>
+    <itunes:category text="Business">
+      <itunes:category text="Careers" />
+      <itunes:category text="Entrepreneurship" />
+      <itunes:category text="Management" />
+      <itunes:category text="Marketing" />
+      <itunes:category text="Non-Profit" />
+    </itunes:category>
+    <ttl>60</ttl>
+    <item>
+      <title>Пилотный выпуск о тканях с Наташей Балахонцевой</title>
+      <enclosure url="https://zakutokmedia.ru/shows/gosuch/1.mp3" length="23235189" type="audio/mpeg" />
+      <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
+      <description>
+        <![CDATA[
+          <p>
+            В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+            </p>
+            <br>
+            <p>
+              Инстаграм «Мечты»
+              <br>
+              <a href="https://www.instagram.com/mechta_tkani/">mechta_tkani</a>
+            </p>
+            <br>
+            <p>
+              Наш сайт
+              <br>
+              <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
+            </p>
+            <br>
+            <p>
+              Наш Инстаграм
+              <br>
+              <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
+            </p>
+            <br>
+            <p>
+              Пишите нам в
+              <br>
+              <a href="https://t.me/Koko3kote">Телеграм</a>
+            </p>
+
+             ]]>
+      </description>
+      <psc:chapters>
+        <psc:chapter start="00:06:25" title="Карьера" />
+        <psc:chapter start="00:09:37" title="Кто идёт покупать ткани" />
+        <psc:chapter start="00:13:51" title="Про потребности клиентов" />
+        <psc:chapter start="00:16:06" title="Как и где закупают ткани" />
+        <psc:chapter start="00:17:40" title="Про вкус" />
+        <psc:chapter start="00:18:26" title="Почему Италия?" />
+        <psc:chapter start="00:19:36" title="Инсайдерская информация" />
+        <psc:chapter start="00:20:38" title="Ткани — это про офлайн" />
+        <psc:chapter start="00:22:51" title="Про выбор тканей" />
+        <psc:chapter start="00:24:31" title="Про стоимость пошива" />
+        <psc:chapter start="00:26:00" title="Про процесс пошива" />
+        <psc:chapter start="00:27:47" title="Про мастеров города" />
+        <psc:chapter start="00:29:18" title="Рост популярности пошива" />
+        <psc:chapter start="00:31:01" title="Как одеваются люди в городе" />
+        <psc:chapter start="00:32:27" title="Популяризация пошива" />
+        <psc:chapter start="00:33:19" title="Про «Первый раз»" />
+        <psc:chapter start="00:36:55" title="Про экологию" />
+        <psc:chapter start="00:37:53" title="«Гусиная лапка»" />
+        <psc:chapter start="00:38:37" title="«Леопардин»" />
+        <psc:chapter start="00:41:09" title="Вкусовщина и стереотипы" />
+      </psc:chapters>
+      <guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>48:18</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+      <itunes:summary>Пилотный выпуск о тканях с Наташей Балахонцевой</itunes:summary>
+      <itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg" />
+      <link>https://zakutokmedia.ru</link>
+    </item>
+  </channel>
+</rss>

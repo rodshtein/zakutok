@@ -95,6 +95,7 @@ section.podcast
 
   h2.h3 Послушать
   .links
+    a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
     a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
 section.podcast
@@ -460,8 +461,8 @@ section.about
   }
 
   img{
-    width: 136px;
-    height: 136px;
+    width: 176px;
+    height: 176px;
     border-radius: 50%;
     margin-left: -29px;
     border: 8px solid rgba(0,0,0,0);
@@ -516,18 +517,5 @@ section.about
   .host-block {
     margin-bottom: 90px;
   }
-  .text {
-    font-family: Golos;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 103%;
-    letter-spacing: 0em;
-    text-align: left;
-    @media ( width > 1280px ){
-      font-size: 52px;
-    }
-  }
-
 }
 </style>

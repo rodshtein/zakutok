@@ -1,0 +1,174 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <atom:link href="https://mousepawmedia.com/rss/mousepawdcast.xml" rel="self" type="application/rss+xml" />
+    <title>MousePaw'dCast</title>
+    <link>https://mousepawmedia.com/podcast</link>
+    <description>The official podcast of MousePaw Media, discussing game development, open source programming, and
+      education.</description>
+    <managingEditor>info@mousepawmedia.com (MousePaw Media)</managingEditor>
+    <webMaster>webmaster@mousepawmedia.com (MousePaw Media)</webMaster>
+    <language>en-us</language>
+    <copyright>Copyright (C) 2017 MousePaw Media. All Rights Reserved.</copyright>
+    <creativeCommons:license> https://creativecommons.org/licenses/by-nc-nd/4.0/ </creativeCommons:license>
+    <pubDate>Sat, 27 May 2017 02:00:00 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Jan 2018 04:00:00 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <itunes:author>MousePaw Media</itunes:author>
+    <itunes:keywords>software,programming,game development,education,open source,technology</itunes:keywords>
+    <itunes:category text="Technology" />
+    <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>
+        <![CDATA[ MousePaw Media ]]>
+      </itunes:name>
+      <itunes:email>info@mousepawmedia.com</itunes:email>
+    </itunes:owner>
+    <image>
+      <url>https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg</url>
+      <title>MousePaw'dCast</title>
+      <link>https://mousepawmedia.com/podcast</link>
+    </image>
+    <item>
+      <title>Episode 6: New Worlds and Forgotten Times</title>
+      <link>https://archive.org/details/MousePawdCastEp6</link>
+      <description> In this episode, Annie, Allie, and Jason discuss world building in storytelling. Chris and Jason
+        talk about design and debugging lessons for modern coders from the era of punchcard programming. Break out the
+        card punch confetti and tune in! </description>
+      <pubDate>Fri, 26 Feb 2018 04:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/MousePawdCastEp6</guid>
+      <media:content medium="audio" url="https://archive.org/download/MousePawdCastEp6/MousePawdCast_Ep6.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3834">
+        <media:title type="plain">Episode 6: New Worlds and Forgotten Times</media:title>
+        <media:description> In this episode, Annie, Allie, and Jason discuss world building in storytelling. Chris and
+          Jason talk about design and debugging lessons for modern coders from the era of punchcard programming. Break
+          out the card punch confetti and tune in! </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, writing, creative writing, software, development, mousepaw media </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/MousePawdCastEp6/MousePawdCast_Ep6.mp3" length="71170216" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>1:03:54</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 5: Villains and Time Flux</title>
+      <link>https://archive.org/details/MousePawdCastEp5</link>
+      <description> In this episode, Annie, Allie, and Jason conclude their story character development discussion by
+        talking about antagonists and their motivations. Bo and Jason discuss how to handle uncertainty in project
+        management. We've got villains and time lords abundant, so tune in! (Article:
+        https://dev.to/codemouse92/gallifreyan-software-project-management-29a1) </description>
+      <pubDate>Fri, 26 Jan 2018 04:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/MousePawdCastEp5</guid>
+      <media:content medium="audio" url="https://archive.org/download/MousePawdCastEp5/MousePawdCast_Ep5.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3850">
+        <media:title type="plain">Episode 5: Villains and Time Flux</media:title>
+        <media:description> In this episode, Annie, Allie, and Jason conclude their story character development
+          discussion by talking about antagonists and their motivations. Bo and Jason discuss how to handle uncertainty
+          in project management. We've got villains and time lords abundant, so tune in! (Article:
+          https://dev.to/codemouse92/gallifreyan-software-project-management-29a1) </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, writing, creative writing, software, development, mousepaw media </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/MousePawdCastEp5/MousePawdCast_Ep5.mp3" length="73312022" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>1:04:10</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 4: New Characters and Old Code</title>
+      <link>https://archive.org/details/MousePawdCastEp4</link>
+      <description> In this episode, Annie, Allie, and Jason continue their discussion about character development,
+        while Bo and Sergio sit down with Jason for a chat about inheriting code from other developers. Pastel-colored
+        ponies and coding horror stories are thrown into the mix, so don't miss this latest episode! </description>
+      <pubDate>Tue, 14 Nov 2017 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/MousePawdCastEp4</guid>
+      <media:content medium="audio" url="https://archive.org/download/MousePawdCastEp4/MousePawdCast_November2017.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="3750">
+        <media:title type="plain">Episode 4: New Characters and Old Code</media:title>
+        <media:description> In this episode, Annie, Allie, and Jason continue their discussion about character
+          development, while Bo and Sergio sit down with Jason for a chat about inheriting code from other developers.
+          Pastel-colored ponies and coding horror stories are thrown into the mix, so don't miss this latest episode!
+        </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, writing, creative writing, software, development, mousepaw media </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/MousePawdCastEp4/MousePawdCast_November2017.mp3" length="148356702" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>1:02:30</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 3: Heroes and Methods</title>
+      <link>https://archive.org/details/MousePawdCastEp3</link>
+      <description> We're back! Learn where the crew of MousePaw Media has been for two months. Annie, Allie, and Jason
+        will discuss character development in fiction writing. Nate, Jarek, and Jason talk about methodologies in team
+        and project management. Along the way, you'll hear about chicken hysteria, time zones, conspiracies, and whether
+        a TARDIS could have a role in test-driven development. </description>
+      <pubDate>Wed, 14 Jun 2017 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/MousePawdCastEp3</guid>
+      <media:content medium="audio" url="https://archive.org/download/MousePawdCastEp3/MousePawdCast_Ep3.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="4054">
+        <media:title type="plain">Episode 3: Heroes and Methods</media:title>
+        <media:description> We're back! Learn where the crew of MousePaw Media has been for two months. Annie, Allie,
+          and Jason will discuss character development in fiction writing. Nate, Jarek, and Jason talk about
+          methodologies in team and project management. Along the way, you'll hear about chicken hysteria, time zones,
+          conspiracies, and whether a TARDIS could have a role in test-driven development. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, writing, creative writing, software, APIs, mousepaw media, methodologies,
+          management, project management </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/MousePawdCastEp3/MousePawdCast_Ep3.mp3" length="176514638" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>1:07:34</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 2: Accents and APIs</title>
+      <link>https://archive.org/details/mousepawdcast_ep2</link>
+      <description> In this episode, Anne McDonald, Allie Jensen, and Daniel Lee discuss their adventures in phonetics
+        and pronunciations when working on the master word list. Nate Groggett and Jason C. McDonald talk about common
+        pitfalls in API design and documentation. </description>
+      <pubDate>Wed, 22 Mar 2017 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/mousepawdcast_ep2</guid>
+      <media:content medium="audio" url="https://archive.org/download/mousepawdcast_ep2/MousePawdCast_March2017.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2263">
+        <media:title type="plain">Episode 2: Accents and APIs</media:title>
+        <media:description> In this episode, Anne McDonald, Allie Jensen, and Daniel Lee discuss their adventures in
+          phonetics and pronunciations when working on the master word list. Nate Groggett and Jason C. McDonald talk
+          about common pitfalls in API design and documentation. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, phonetics, language, game development, education, software, APIs, mousepaw media
+        </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/mousepawdcast_ep2/MousePawdCast_March2017.mp3" length="43749376" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>37:43</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 1: History and Characters</title>
+      <link>https://archive.org/details/mousepawdcast_ep1</link>
+      <description> In this episode, Anne and Jason McDonald discuss the colorful history behind MousePaw Games. Also,
+        Scott Taylor talks about creating a Unicode-friendly string class in C++. </description>
+      <pubDate>Tue, 23 Aug 2016 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://archive.org/details/mousepawdcast_ep1</guid>
+      <media:content medium="audio" url="https://archive.org/download/mousepawdcast_ep1/episode1_final.mp3" type="audio/mpeg" isDefault="true" expression="full" duration="2802">
+        <media:title type="plain">Episode 1: History and Characters</media:title>
+        <media:description> In this episode, Anne and Jason McDonald discuss the colorful history behind MousePaw Games.
+          Also, Scott Taylor talks about creating a Unicode-friendly string class in C++. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+        <media:keywords> programming, strings, game development, education, software, C++, unicode, mousepaw media
+        </media:keywords>
+      </media:content>
+      <enclosure url="http://archive.org/download/mousepawdcast_ep1/episode1_final.mp3" length="52138496" type="audio/mpeg" />
+      <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg" />
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>46:42</itunes:duration>
+    </item>
+  </channel>
+</rss>

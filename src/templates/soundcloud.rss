@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podlodka Podcast</title>
+    <link>https://t.me/podlodka</link>
+    <atom:link
+      href="https://feeds.soundcloud.com/users/soundcloud:users:291337106/sounds.rss"
+      rel="self"
+      type="application/rss+xml" />
+    <atom:link
+      href="https://feeds.soundcloud.com/users/soundcloud:users:291337106/sounds.rss?before=309607800"
+      rel="next"
+      type="application/rss+xml" />
+    <pubDate>Mon, 24 May 2021 13:33:26 +0000</pubDate>
+    <lastBuildDate>Mon, 24 May 2021 13:33:26 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <language>ru</language>
+    <copyright>All rights reserved</copyright>
+    <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+    <description>Podlodka - это еженедельное аудио-шоу про IT и все, что с ним связано. Формат наших выпусков - это
+      полное погружение в тему вместе с приглашенным гостем. В каждый выпуск мы зовём интересных и именитых
+      профессионалов в разных областях.
+
+      Мы любим обсуждать архитектуру, делиться опытом промышленной разработки и спорить на горячие темы.
+
+      Подкаст ведут четверо весёлых и опытных инженеров с примесями менеджеров:
+      - Егор Толстой (Kotlin Lead Product Manager, JetBrains)
+      - Стас Цыганов (Руководитель мобильной разработки, Туту.ру)
+      - Катя Петрова (Руководитель разработки Frontend Architecture, Avito)
+      - Женя Кателла (Руководитель мобильной разработки, Яндекс.Еда)</description>
+    <itunes:subtitle>Podlodka - это еженедельное аудио-шоу про IT и вс…</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>Podlodka Podcast</itunes:name>
+      <itunes:email>podlodkacast@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Егор Толстой, Стас Цыганов, Екатерина Петрова и Евгений Кателла</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://i1.sndcdn.com/avatars-000331499231-lm24fw-original.jpg" />
+    <image>
+      <url>https://i1.sndcdn.com/avatars-000331499231-lm24fw-original.jpg</url>
+      <title>Podlodka Podcast</title>
+      <link>https://t.me/podlodka</link>
+    </image>
+    <itunes:category text="Technology" />
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1054559605</guid>
+      <title>Podlodka #217 – Фасилитация</title>
+      <pubDate>Mon, 24 May 2021 13:32:54 +0000</pubDate>
+      <link>https://soundcloud.com/podlodka/podlodka-217-fasilitatsiya</link>
+      <itunes:duration>02:10:52</itunes:duration>
+      <itunes:author>Егор Толстой, Стас Цыганов, Екатерина Петрова и Евгений Кателла</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Фасилитация, на первый взгляд, инструмент скрам-мастера, ну или на крайний случай тимлида. С
+        независимым Agile-коачем Александрой Баптизманской разобрали, как фасилитация может быть полезна в том числе
+        разработчикам. Разобрали теорию, а самое главное – разыграли по ролям фасилитацию архитектурного обсуждения.
+
+        Направьте усилия команды на генерацию идей, об IT-инфраструктуре проекта позаботится Selectel:
+        https://slc.tl/wHQM1. По промокоду Podlodka получите 1000 бонусных рублей на Облачную платформу.
+
+        Поддержи лучший подкаст про IT: www.patreon.com/podlodka
+
+        Также ждем вас, ваши лайки, репосты и комменты в мессенджерах и соцсетях!
+        Telegram-чат: https://t.me/podlodka
+        Telegram-канал: https://t.me/podlodkanews
+        Страница в Facebook: www.facebook.com/podlodkacast/
+        Twitter-аккаунт: https://twitter.com/PodlodkaPodcast
+
+        Ведущие в выпуске:
+        Стас Цыганов, Катя Петрова
+
+        Полезные ссылки:
+        - Канал “Нестыдная фасилитация https://t.me/no_shame_facilitation
+        - Сэм Кейнер - «Руководство фасилитатора» https://www.alpinabook.ru/catalog/book-
+        7631/
+        - Майкл Вилкинсон - «SMARTруководство по работе с группами»
+        https://www.alpinabook.ru/catalog/book-507092/
+        - Тренинг по фасилитации - Agile Team Facilitation https://scrum.ua/l/5b</itunes:summary>
+      <itunes:subtitle>Фасилитация, на первый взгляд, инструмент скрам-м…</itunes:subtitle>
+      <description>Фасилитация, на первый взгляд, инструмент скрам-мастера, ну или на крайний случай тимлида. С
+        независимым Agile-коачем Александрой Баптизманской разобрали, как фасилитация может быть полезна в том числе
+        разработчикам. Разобрали теорию, а самое главное – разыграли по ролям фасилитацию архитектурного обсуждения.
+
+        Направьте усилия команды на генерацию идей, об IT-инфраструктуре проекта позаботится Selectel:
+        https://slc.tl/wHQM1. По промокоду Podlodka получите 1000 бонусных рублей на Облачную платформу.
+
+        Поддержи лучший подкаст про IT: www.patreon.com/podlodka
+
+        Также ждем вас, ваши лайки, репосты и комменты в мессенджерах и соцсетях!
+        Telegram-чат: https://t.me/podlodka
+        Telegram-канал: https://t.me/podlodkanews
+        Страница в Facebook: www.facebook.com/podlodkacast/
+        Twitter-аккаунт: https://twitter.com/PodlodkaPodcast
+
+        Ведущие в выпуске:
+        Стас Цыганов, Катя Петрова
+
+        Полезные ссылки:
+        - Канал “Нестыдная фасилитация https://t.me/no_shame_facilitation
+        - Сэм Кейнер - «Руководство фасилитатора» https://www.alpinabook.ru/catalog/book-
+        7631/
+        - Майкл Вилкинсон - «SMARTруководство по работе с группами»
+        https://www.alpinabook.ru/catalog/book-507092/
+        - Тренинг по фасилитации - Agile Team Facilitation https://scrum.ua/l/5b</description>
+      <enclosure type="audio/mpeg"
+        url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/1054559605-podlodka-podlodka-217-fasilitatsiya.mp3"
+        length="314097370" />
+      <itunes:image href="https://i1.sndcdn.com/avatars-000331499231-lm24fw-original.jpg" />
+    </item>
+  </channel>
+</rss>

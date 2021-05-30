@@ -3,6 +3,10 @@ import { imagetools } from "vite-imagetools"
 import sveltePreprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-node';
 
+
+const mode = process.env.NODE_ENV;
+const dev = mode === 'development';
+
 const config = {
 	kit: {
 		target: '#svelte',
@@ -12,6 +16,7 @@ const config = {
 		}
 	},
 	preprocess: sveltePreprocess({
+		sourceMap: dev,
 		pug: true,
 		postcss: true,
 	})
