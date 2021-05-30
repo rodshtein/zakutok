@@ -1,10 +1,15 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, statSync } from 'fs';
 import * as ID3Reader from 'node-id3';
 import * as prettydata from 'pretty-data';
 
+const siteUrl = 'https://zakutokmedia.ru/';
+const showUrl = 'shows/gosuch/';
+const audioFormat = '.mp3';
+const audioType = 'audio/mpeg';
 const ID3_cache = {};
 
-function getAudioTags(path){
+function getAudioTags(fileName, format = audioFormat){
+  let path = './static/' + showUrl + fileName + format;
   if(path in ID3_cache) return ID3_cache[path]
 
   const tags = ID3Reader.read(path,  {
@@ -15,19 +20,28 @@ function getAudioTags(path){
   return tags
 }
 
-function getDuration(path){
-  let length = getAudioTags(path).length
+function getFileTag(fileName, {
+  format = audioFormat,
+  type = audioType
+}={}){
+  const stats = statSync('./static/' + showUrl + fileName + format);
+  let fileUrl = siteUrl + showUrl + fileName + format;
+  let tag = `
+    <guid isPermaLink="true">${fileUrl}</guid>
+    <enclosure url="${fileUrl}"  length="${stats.size}" type="${type}"/>`;
+  return tag
+};
+
+function getDuration(fileName, format = audioFormat){
+  let length = getAudioTags(fileName, format).length
   let duration = new Date(Math.ceil(length)).toISOString().substr(11, 8);
   return `<itunes:duration>${duration}</itunes:duration>`
 }
 
-function getChapterTime(item){
-  let startTimeMs = parseFloat(item.startTimeMs);
-  return new Date(startTimeMs).toISOString().substr(11, 8);
-}
 
-function paintChapters(path){
-  let chapter = getAudioTags(path).chapter
+
+function paintChapters(fileName, format = audioFormat){
+  let chapter = getAudioTags(fileName, format).chapter
 
   const chapters = chapter.reduce((prev, item) => {
       let title = item.tags.title
@@ -46,6 +60,11 @@ function paintChapters(path){
     ? `<psc:chapters>${chapters}</psc:chapters>`
     : '';
   return tag
+}
+
+function getChapterTime(item){
+  let startTimeMs = parseFloat(item.startTimeMs);
+  return new Date(startTimeMs).toISOString().substr(11, 8);
 }
 
 function getRssFeed(){
@@ -120,10 +139,7 @@ function buildFeed(){
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
         <title>Пилотный выпуск о тканях с Наташей Балахонцевой</title>
-        <enclosure
-          url="https://zakutokmedia.ru/shows/gosuch/1.mp3"
-          length="23235189"
-          type="audio/mpeg" />
+        ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         <description>
           <![CDATA[
@@ -157,9 +173,8 @@ function buildFeed(){
 
               ]]>
         </description>
-        <guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid>
-        ${paintChapters('./static/shows/gosuch/1.mp3')}
-        ${getDuration('./static/shows/gosuch/1.mp3')}
+        ${paintChapters('1')}
+        ${getDuration('1')}
         <itunes:explicit>true</itunes:explicit>
         <itunes:summary>Пилотный выпуск о тканях с Наташей Балахонцевой</itunes:summary>
         <itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords>
