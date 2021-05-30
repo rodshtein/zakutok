@@ -97,6 +97,7 @@ function buildFeed(){
     >
     <channel>
       <title>Gosuch</title>
+      <itunes:title>Gosuch</itunes:title>
       <link>https://zakutokmedia.ru</link>
       <atom:link
         href="https://zakutokmedia.ru/gosuch/rss"
@@ -116,7 +117,6 @@ function buildFeed(){
       <webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster>
       <pubDate>${new Date().toUTCString()}</pubDate>
       <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-      <itunes:title>Говорим о интересных делах в которых ничего не понимаем.</itunes:title>
       <itunes:explicit>true</itunes:explicit>
       <itunes:type>episodic</itunes:type>
       <itunes:owner>
@@ -125,25 +125,22 @@ function buildFeed(){
       </itunes:owner>
       <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg" />
       <itunes:category text="Comedy">
-        <itunes:category text="Comedy Interviews" />
+      <itunes:category text="Comedy Interviews" />
       </itunes:category>
       <itunes:category text="Business">
-        <itunes:category text="Careers" />
-        <itunes:category text="Entrepreneurship" />
-        <itunes:category text="Management" />
-        <itunes:category text="Marketing" />
         <itunes:category text="Non-Profit" />
-      </itunes:category>
+        </itunes:category>
       <ttl>60</ttl>
       <item>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
-        <title>Пилотный выпуск о тканях с Наташей Балахонцевой</title>
+        <title>Пилотный выпуск</title>
+        <itunes:summary>Поговорили о тканях с Наташей Балахонцевой</itunes:summary>
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         <description>
-          <![CDATA[
-            <p>
+        <![CDATA[
+          <p>
               В пилотном выпуске мы задаем глупые вопросы Наташе Балахонцевой. У неё есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
               </p>
               <br>
@@ -176,7 +173,6 @@ function buildFeed(){
         ${paintChapters('1')}
         ${getDuration('1')}
         <itunes:explicit>true</itunes:explicit>
-        <itunes:summary>Пилотный выпуск о тканях с Наташей Балахонцевой</itunes:summary>
         <itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords>
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/>
         <link>https://zakutokmedia.ru</link>
