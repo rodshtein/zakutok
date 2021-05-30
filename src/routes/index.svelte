@@ -6,7 +6,7 @@
 import PhotoTim from '../../static/team/tim.png?w=120;240&format=webp;avif;jpg&srcset'
 import PhotoKostia from '../../static/team/kostia.png?w=120;240&format=webp;avif;jpg&srcset'
 import PhotoLida from '../../static/team/lida.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoNikita from '../../static/team/nikita.png?w=120;580&format=webp;avif;jpg&srcset'
+import PhotoNikita from '../../static/team/nikita.png?w=120;240&format=webp;avif;jpg&srcset'
 import PhotoMisha from '../../static/team/misha.png?w=120;240&format=webp;avif;jpg&srcset'
 import PhotoNatasha from '../../static/team/natasha.png?w=120;240&format=webp;avif;jpg&srcset'
 import PhotoAlena from '../../static/team/alena.png?w=120;240&format=webp;avif;jpg&srcset'
@@ -248,8 +248,8 @@ section.about
     margin-bottom: -20px;
     @media ( width < 900px ){
       background-image: url(/logo/gosuch--s.svg);
-      padding-bottom: 46.7127466251%;
-      /* 287.9 / (616.32 / 100) */
+      padding-bottom: 59.364548495%;
+      /* 355 / (598/ 100) */
     }
   }
 
@@ -461,8 +461,8 @@ section.about
   }
 
   img{
-    width: 176px;
-    height: 176px;
+    width: 136px;
+    height: 136px;
     border-radius: 50%;
     margin-left: -29px;
     border: 8px solid rgba(0,0,0,0);

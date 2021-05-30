@@ -83,7 +83,7 @@ p {
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 103%;
+  line-height: 120%;
   letter-spacing: 0em;
   text-align: left;
   @media ( width > 1280px ){
