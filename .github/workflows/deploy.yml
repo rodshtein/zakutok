@@ -15,8 +15,11 @@ jobs:
         with:
           command: |
             cd /var/www/zakutok
+            git reset --hard HEAD
+            git clean -f -d
             git pull
-            pm2 restart 0
+            pm2 delete all
+            pm2 start ecosystem.config.cjs
           host: 82.148.28.242
           username: root
           privateKey: ${{ secrets.DEV_KEY }}

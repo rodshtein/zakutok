@@ -48,13 +48,13 @@ section.podcast
   h2.h3 Послушать
   .links
     a(href='https://podcasts.apple.com/podcast/id1549369792?mt=2' target='_blank') Apple Podcasts
+    a(href='https://music.yandex.ru/album/13523721' target='_blank') Я.Музыка
     a(href='https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODM0NGVkMC9wb2RjYXN0L3Jzcw' target='_blank') Google Podcasts
-    a(href='https://castbox.fm/vic/1549369792' target='_blank') Castbox
     a(href='https://overcast.fm/itunes1549369792' target='_blank') Overcast
     a(href='https://pca.st/nc6mbk5o' target='_blank') Pocket Casts
     a(href='https://open.spotify.com/show/0LDb8JioFYVGlcJivDQ2uP' target='_blank') Spotify
+    a(href='https://castbox.fm/vic/1549369792' target='_blank') Castbox
     a(href='https://castro.fm/itunes/1549369792' target='_blank') Castro
-    a(href='https://music.yandex.ru/album/13523721' target='_blank') Я.Музыка
     a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
 
 section.podcast
@@ -95,7 +95,11 @@ section.podcast
 
   h2.h3 Послушать
   .links
+    a(href='https://podcasts.apple.com/us/podcast/gosuch/id1570029023' target='_blank') Apple Podcasts
     a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
+    a(href='https://overcast.fm/itunes1570029023/gosuch' target='_blank') Overcast
+    a(href='https://castro.fm/podcast/ef8db0ee-5698-4f01-a65e-40073c0ca41e' target='_blank') Castro
+    a(href='https://radiopublic.com/gosuch-6rj7RK' target='_blank') Radio Public
     a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
 section.podcast
@@ -119,15 +123,14 @@ section.podcast
   h2.h3 Послушать
   .links
     a(href='https://podcasts.apple.com/podcast/id1566497764' target='_blank') Apple Podcasts
-    a(href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81NTczYWM0NC9wb2RjYXN0L3Jzcw==' target='_blank') Google Podcasts
-    a(href='https://castbox.fm/vic/1566497764' target='_blank') Castbox
+    a(href='https://music.yandex.ru/album/15021185' target='_blank') Я.Музыка
     a(href='https://overcast.fm/itunes1566497764' target='_blank') Overcast
+    a(href='https://castbox.fm/vic/1566497764' target='_blank') Castbox
     a(href='https://pca.st/itunes/1566497764' target='_blank') Pocket Casts
     a(href='https://open.spotify.com/show/6MWMFax8t2BIm16RD9l7NI' target='_blank') Spotify
     a(href='https://castro.fm/itunes/1566497764' target='_blank') Castro
     a(href='https://www.breaker.audio/shows?feed_url=https%3A%2F%2Fanchor.fm%2Fs%2F5573ac44%2Fpodcast%2Frss' target='_blank') Breaker
-    a(href='https://radiopublic.com/https%3A%2F%2Fanchor.fm%2Fs%2F5573ac44%2Fpodcast%2Frss' target='_blank') RadioPublic
-    a(href='https://music.yandex.ru/album/15021185' target='_blank') Я.Музыка
+    a(href='https://radiopublic.com/https%3A%2F%2Fanchor.fm%2Fs%2F5573ac44%2Fpodcast%2Frss' target='_blank') Radio Public
     a(href='https://anchor.fm/s/5573ac44/podcast/rss' target='_blank') RSS
 
 section.about
