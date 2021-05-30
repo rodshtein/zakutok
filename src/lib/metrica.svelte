@@ -1,7 +1,7 @@
 <script >
   import { onMount } from 'svelte'
 
-  const DEV = import.meta.env.VITE_DEV;
+  const DEV = import.meta.env.VITE_DEV ? true : false;
 
   export let id = null;
   export let clickmap = true
@@ -10,7 +10,7 @@
   export let src = "https://mc.yandex.ru/metrika/watch.js"
 
   onMount(() => {
-    if (DEV || !id) return
+    if (!DEV || !id) return
     init()
   })
 
