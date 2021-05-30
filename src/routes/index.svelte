@@ -19,7 +19,7 @@ import PhotoAlena from '../../static/team/alena.png?w=120;240&format=webp;avif;j
 
 
 <template lang='pug'>
-section.podcast
+section#shmarketing.podcast
   h1.logotype.smarketing Шмаркетинг
   .description_block
     p.p.text
@@ -57,7 +57,7 @@ section.podcast
     a(href='https://castro.fm/itunes/1549369792' target='_blank') Castro
     a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
 
-section.podcast
+section#gosuch.podcast
   h1.logotype.gosuch Gosuch
   .description_block
     p.p.text
@@ -102,7 +102,7 @@ section.podcast
     a(href='https://radiopublic.com/gosuch-6rj7RK' target='_blank') Radio Public
     a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
 
-section.podcast
+section#5cents.podcast
   h1.logotype.five-cents Пятицентовая поэзия
   .description_block
     p.p.text
