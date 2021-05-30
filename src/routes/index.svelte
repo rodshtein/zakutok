@@ -287,6 +287,7 @@ section.about
     text-align: left;
     padding-top: 10px;
     margin: 0;
+    font-transform: uppercase;
 
     @media ( width > 1280px ){
       font-size: 50px;
