@@ -16,7 +16,7 @@ jobs:
           command: |
             cd /var/www/zakutok
             git pull
-            pm2 restart site
+            pm2 restart 0
           host: 82.148.28.242
           username: root
           privateKey: ${{ secrets.DEV_KEY }}
