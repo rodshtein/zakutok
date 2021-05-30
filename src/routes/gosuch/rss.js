@@ -102,7 +102,7 @@ function buildFeed(){
       <atom:link
         href="https://zakutokmedia.ru/gosuch/rss"
         type="application/rss+xml" />
-      <description> Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем. Наш сайт zakutokmedia.ru </description>
+      <description>Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем. Наш сайт: zakutokmedia.ru</description>
       <image>
         <title>Gosuch Подкаст</title>
         <link>https://zakutokmedia.ru</link>
@@ -138,35 +138,16 @@ function buildFeed(){
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         <description>
-        <![CDATA[
-          <p>Поговорили о тканях с Наташей Балахонцевой. У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
-              </p>
-              <br>
-              <p>
-                Инстаграм «Мечты»
-                <br>
-                <a href="https://www.instagram.com/mechta_tkani/">mechta_tkani</a>
-              </p>
-              <br>
-              <p>
-                Наш сайт
-                <br>
-                <a href="https://zakutokmedia.ru/">zakutokmedia.ru</a>
-              </p>
-              <br>
-              <p>
-                Наш Инстаграм
-                <br>
-                <a href="https://www.instagram.com/zakutokmediaru/">zakutokmediaru</a>
-              </p>
-              <br>
-              <p>
-                Пишите нам в
-                <br>
-                <a href="https://t.me/Koko3kote">Телеграм</a>
-              </p>
+        Поговорили о тканях с Наташей Балахонцевой.
 
-              ]]>
+        У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+
+        Полезные ссылки:
+        − Инстаграм «Мечты» https://www.instagram.com/mechta_tkani
+        − Наш сайт https://zakutokmedia.ru/
+        − Наш инстаграм https://www.instagram.com/zakutokmediaru
+
+        Пишите нам в Телеграм https://t.me/Koko3kote
         </description>
         ${paintChapters('1')}
         ${getDuration('1')}
