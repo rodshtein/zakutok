@@ -71,7 +71,6 @@ function buildFeed(){
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
     xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
-
     xmlns:media="https://search.yahoo.com/mrss/"
     xmlns:dcterms="https://purl.org/dc/terms/"
     xmlns:spotify="https://www.spotify.com/ns/rss"
