@@ -9,10 +9,10 @@
       | Мы в Телеграме
 
   .company-block
-    .logo.zakutok
-      | Мы в Инстаграме
+    a.logo.zakutok(href='/')
+      | На главную
     a.logo.copyright(href='http://kokovikhin.digital/' target='_blank')
-      | Мы в Телеграме
+      | kokovikhin.digital
 
 </template>
 
@@ -73,6 +73,7 @@
 
 
   &.zakutok{
+    display: block;
     background-image: url(/logo/zakutok.svg);
     background-repeat: no-repeat;
     background-position: 0 0;
