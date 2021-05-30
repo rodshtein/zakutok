@@ -102,7 +102,13 @@ function buildFeed(){
       <atom:link
         href="https://zakutokmedia.ru/gosuch/rss"
         type="application/rss+xml" />
-      <description>Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем. Наш сайт: zakutokmedia.ru</description>
+      <description>
+      Подкаст о людях, которые занимаются интересными делами.
+
+      Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
+
+      Наш сайт: https://zakutokmedia.ru
+      </description>
       <image>
         <title>Gosuch Подкаст</title>
         <link>https://zakutokmedia.ru</link>
@@ -142,10 +148,13 @@ function buildFeed(){
 
         У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
 
+        Ведущие выпуска:
+        Лида Чапко, Никита Новосёлов, Костя Коковихин
+
         Полезные ссылки:
-        − Инстаграм «Мечты» https://www.instagram.com/mechta_tkani
-        − Наш сайт https://zakutokmedia.ru/
-        − Наш инстаграм https://www.instagram.com/zakutokmediaru
+        Инстаграм «Мечты» https://www.instagram.com/mechta_tkani
+        Наш сайт https://zakutokmedia.ru
+        Наш инстаграм https://www.instagram.com/zakutokmediaru
 
         Пишите нам в Телеграм https://t.me/Koko3kote
         </description>
