@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync, statSync } from 'fs';
 import * as ID3Reader from 'node-id3';
 import * as prettydata from 'pretty-data';
-import * as normalize from 'normalize-html-whitespace';
 
 const siteUrl = 'https://zakutokmedia.ru/';
 const showUrl = 'shows/gosuch/';
@@ -37,17 +36,6 @@ function getDuration(fileName, format = audioFormat){
   let length = getAudioTags(fileName, format).length
   let duration = new Date(Math.ceil(length)).toISOString().substr(11, 8);
   return `<itunes:duration>${duration}</itunes:duration>`
-}
-
-function getDescription(text){
-  let html = `<![CDATA[${text}]]>`;
-  // let html = `<![CDATA[${normalize(text)}]]>`;
-  let description = `<description>${html}</description>`;
-  // we dublicate summary, because apple hides description if there is a summary
-  // but if we have no summary we cant see subtitle
-  // summary temporary disabled
-  let summary = `<itunes:summary>${html}</itunes:summary>`;
-   return description
 }
 
 function paintChapters(fileName, format = audioFormat){
@@ -101,11 +89,19 @@ function buildFeed(){
       <itunes:title>Gosuch</itunes:title>
       <link>https://zakutokmedia.ru/gosuch</link>
       <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/>
-      ${getDescription(
-        `<p>Подкаст о людях, которые занимаются интересными делами.</p>
-        <p>Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.</p>
-        <p>Наш сайт: <a href='https://zakutokmedia.ru/gosuch'>zakutokmedia.ru/gosuch</a></p>`
-      )}
+      <description>
+        Подкаст о людях, которые занимаются интересными делами.
+        Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
+
+        Наш сайт
+        zakutokmedia.ru/gosuch
+
+        Наш инстаграм
+        instagram.com/gosuchornotgosuch
+
+        Пишите нам в Телеграм, отвечает Костя
+        t.me/Koko3kote
+      </description>
       <image>
         <title>Gosuch Подкаст</title>
         <link>https://zakutokmedia.ru/gosuch</link>
@@ -120,13 +116,13 @@ function buildFeed(){
       <webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster>
       <pubDate>${new Date().toUTCString()}</pubDate>
       <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-      <itunes:explicit>true</itunes:explicit>
+      <itunes:explicit>yes</itunes:explicit>
       <itunes:type>episodic</itunes:type>
       <itunes:owner>
         <itunes:name>Zakutok Media</itunes:name>
         <itunes:email>kk@kokovikhin.digital</itunes:email>
       </itunes:owner>
-      <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg" />
+      <itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/>
       <itunes:category text="Comedy">
       <itunes:category text="Comedy Interviews" />
       </itunes:category>
@@ -140,43 +136,34 @@ function buildFeed(){
         <title>Пилотный выпуск</title>
         <itunes:author>Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
         <itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle>
-        ${getFileTag('1')}
-        <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
-        ${getDescription(
-          `<p>
-            Поговорили о тканях с Наташей Балахонцевой.
-          </p>
-
-          <p>
-            У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
-          </p>
-
-          <p>
-            Ведущие выпуска:
-            Лида Чапко, Никита Новосёлов, Костя Коковихин
-          </p>
-
-          <p>Полезные ссылки:</p>
-          <p>
-            Инстаграм «Мечты»
-            <a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a>
-
-            Наш сайт
-            <a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a>
-
-            Наш инстаграм
-            <a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a>
-
-            Пишите нам в Телеграм, отвечает Костя
-            <a href='https://t.me/Koko3kote'>Koko3kote</a>
-          </p>`
-        )}
-        ${paintChapters('1')}
-        ${getDuration('1')}
-        <itunes:explicit>true</itunes:explicit>
+        <itunes:explicit>yes</itunes:explicit>
         <itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords>
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/>
         <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
+        <description>
+          Поговорили о тканях с Наташей Балахонцевой.
+
+          У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+
+          Ведущие выпуска:
+          Лида Чапко, Никита Новосёлов, Костя Коковихин
+
+          Инстаграм «Мечты»
+          instagram.com/mechta_tkani
+
+          Наш сайт
+          zakutokmedia.ru/gosuch
+
+          Наш инстаграм
+          instagram.com/gosuchornotgosuch
+
+          Пишите нам в Телеграм, отвечает Костя
+          t.me/Koko3kote
+        </description>
+        ${getFileTag('1')}
+        ${getDuration('1')}
+        ${paintChapters('1')}
       </item>
     </channel>
   </rss>`)
