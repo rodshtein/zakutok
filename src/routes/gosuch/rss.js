@@ -40,7 +40,8 @@ function getDuration(fileName, format = audioFormat){
 }
 
 function getDescription(text){
-  let html = `<![CDATA[${normalize(text)}]]>`;
+  let html = `<![CDATA[${text}]]>`;
+  // let html = `<![CDATA[${normalize(text)}]]>`;
   let description = `<description>${html}</description>`;
   // we dublicate summary, because apple hides description if there is a summary
   // but if we have no summary we cant see subtitle

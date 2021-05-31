@@ -40,7 +40,8 @@ function getDuration(fileName, format = audioFormat){
 }
 
 function getDescription(text){
-  let html = `<![CDATA[${normalize(text)}]]>`;
+  let html = `<![CDATA[${text}]]>`;
+  // let html = `<![CDATA[${normalize(text)}]]>`;
   let description = `<description>${html}</description>`;
   // we dublicate summary, because apple hides description if there is a summary
   // but if we have no summary we cant see subtitle
@@ -142,21 +143,33 @@ function buildFeed(){
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         ${getDescription(
-          `<p>Поговорили о тканях с Наташей Балахонцевой.</p>
+          `<p>
+            Поговорили о тканях с Наташей Балахонцевой.
+          </p>
 
-          <p>У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</p>
+          <p>
+            У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+          </p>
 
-          <p>Ведущие выпуска:<br>Лида Чапко, Никита Новосёлов, Костя Коковихин</p>
+          <p>
+            Ведущие выпуска:
+            Лида Чапко, Никита Новосёлов, Костя Коковихин
+          </p>
 
           <p>Полезные ссылки:</p>
+          <p>
+            Инстаграм «Мечты»
+            <a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a>
 
-          <p>Инстаграм «Мечты»<br><a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a></p>
+            Наш сайт
+            <a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a>
 
-          <p>Наш сайт<br><a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a></p>
+            Наш инстаграм
+            <a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a>
 
-          <p>Наш инстаграм<br><a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a></p>
-
-          <p>Пишите нам в Телеграм, отвечает Костя<br><a href='https://t.me/Koko3kote'>Koko3kote</a></p>`
+            Пишите нам в Телеграм, отвечает Костя
+            <a href='https://t.me/Koko3kote'>Koko3kote</a>
+          </p>`
         )}
         ${paintChapters('1')}
         ${getDuration('1')}
@@ -196,3 +209,5 @@ export function head() {
     body: getRssFeed(),
   };
 }
+
+
