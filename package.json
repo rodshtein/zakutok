@@ -17,17 +17,16 @@
     "postcss-nested-props": "^2.0.0",
     "postcss-preset-env": "^6.7.0",
     "pug": "^3.0.2",
-    "sugarss": "^3.0.3",
-    "svelte": "^3.34.0",
+    "svelte": "^3.38.2",
     "svelte-preprocess": "^4.7.3",
-    "vite-imagetools": "^3.4.0-next.7"
+    "vite-imagetools": "^3.6.8"
   },
   "type": "module",
   "dependencies": {
-    "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
     "node-id3": "^0.2.3",
+    "normalize-html-whitespace": "^1.0.0",
     "pretty-data": "^0.40.0"
   }
 }

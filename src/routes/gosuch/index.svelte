@@ -82,17 +82,6 @@ section#gosuch.podcast
   width: 100%;
   height: 0;
 
-  &.smarketing {
-    background-image: url(/logo/shmarketing.svg);
-    padding-bottom: 9.3245572794%;
-    /* 107.1/(1148.58 / 100) */
-    @media ( width < 900px ){
-      background-image: url(/logo/shmarketing--s.svg);
-      padding-bottom: 36.0611811991%;
-      /* 226.1 / (626.99 / 100) */
-    }
-  }
-
   &.gosuch {
     background-image: url(/logo/gosuch.svg);
     padding-bottom: 19.9645075421%;
@@ -102,17 +91,6 @@ section#gosuch.podcast
       background-image: url(/logo/gosuch--s.svg);
       padding-bottom: 59.364548495%;
       /* 355 / (598/ 100) */
-    }
-  }
-
-  &.five-cents {
-    background-image: url(/logo/5cents.svg);
-    padding-bottom: 22.2141492425%;
-    /* 247.65/(1114.83 / 100) */
-    @media ( width < 900px ){
-      background-image: url(/logo/5cents--s.svg);
-      padding-bottom: 52.3577030459%;
-      /* 373.19 / (712.77 / 100) */
     }
   }
 }
@@ -171,41 +149,6 @@ section#gosuch.podcast
         text-align: left;
         span {
           text-align: left;
-        }
-      }
-      img {
-        margin-left: 0px;
-      }
-    }
-  }
-
-  &---full{
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-    @media ( width > 1280px ){
-      row-gap: 20px;
-      column-gap: 20px;
-    }
-    .host{
-      a {
-        left: 22px;
-        text-align: left;
-        @media ( width > 1280px ){
-          left: 54px;
-        }
-        span {
-          text-align: left;
-        }
-        &::before {
-          left: -22px;
-          right: -31px;
-          @media ( width > 1280px ){
-            left: -53px;
-          }
-        }
-        &::after {
-          eft: 26px;
         }
       }
       img {
@@ -360,6 +303,7 @@ section#gosuch.podcast
 
     @media ( width > 1280px ){
       font-size: 60px;
+      text-transform: none;
     }
   }
 }

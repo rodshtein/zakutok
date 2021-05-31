@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, statSync } from 'fs';
 import * as ID3Reader from 'node-id3';
 import * as prettydata from 'pretty-data';
+import * as normalize from 'normalize-html-whitespace';
 
 const siteUrl = 'https://zakutokmedia.ru/';
 const showUrl = 'shows/gosuch/';
@@ -39,11 +40,13 @@ function getDuration(fileName, format = audioFormat){
 }
 
 function getDescription(text){
-  let description = `<description>${text}<description>`;
-  //we dublicate summary, because apple hides description if there is a summary
-  //but if we have no summary we cant see subtitle
-  let summary = `<itunes:summary>${text}</itunes:summary>`;
-   return description+summary
+  let html = `<![CDATA[${normalize(text)}]]>`;
+  let description = `<description>${html}</description>`;
+  // we dublicate summary, because apple hides description if there is a summary
+  // but if we have no summary we cant see subtitle
+  // summary temporary disabled
+  let summary = `<itunes:summary>${html}</itunes:summary>`;
+   return description
 }
 
 function paintChapters(fileName, format = audioFormat){
@@ -91,33 +94,24 @@ function getRssFeed(){
 
 function buildFeed(){
   const feed = prettydata.pd.xmlmin(`<?xml version='1.0' encoding='UTF-8'?>
-    <rss
-    version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-    xmlns:atom="http://www.w3.org/2005/Atom"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:media="https://search.yahoo.com/mrss/"
-    xmlns:dcterms="https://purl.org/dc/terms/"
-    xmlns:spotify="https://www.spotify.com/ns/rss"
-    xmlns:psc="https://podlove.org/simple-chapters/"
-    >
+    <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" >
     <channel>
       <title>Gosuch</title>
       <itunes:title>Gosuch</itunes:title>
-      <link>https://zakutokmedia.ru</link>
-      <atom:link
-        href="https://zakutokmedia.ru/gosuch/rss"
-        type="application/rss+xml" />
-      <description>
-      Подкаст о людях, которые занимаются интересными делами.
+      <link>https://zakutokmedia.ru/gosuch</link>
+      <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/>
+      ${getDescription(
+        `<p>Подкаст о людях, которые занимаются интересными делами.</p>
+        <br>
 
-      Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
+        <p>Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.</p>
+        <br>
 
-      Наш сайт: https://zakutokmedia.ru
-      </description>
+        <p>Наш сайт: <a href='https://zakutokmedia.ru/gosuch'>zakutokmedia.ru/gosuch</a></p>`
+      )}
       <image>
         <title>Gosuch Подкаст</title>
-        <link>https://zakutokmedia.ru</link>
+        <link>https://zakutokmedia.ru/gosuch</link>
         <url>https://zakutokmedia.ru/covers/gosuch.jpg</url>
       </image>
       <author>Лида, Никита и Костя</author>
@@ -147,24 +141,39 @@ function buildFeed(){
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
         <title>Пилотный выпуск</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
         <itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle>
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
-        <description>
-        Поговорили о тканях с Наташей Балахонцевой.
+        ${getDescription(
+          `<p><b>Поговорили о тканях с Наташей Балахонцевой.</b></p>
+          <br>
 
-        У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+          <p>У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</p>
+          <br>
 
-        Ведущие выпуска:
-        Лида Чапко, Никита Новосёлов, Костя Коковихин
+          <p><b>Ведущие выпуска:</b></p>
+          <p>Лида Чапко, Никита Новосёлов, Костя Коковихин</p>
+          <br>
 
-        Полезные ссылки:
-        Инстаграм «Мечты» https://www.instagram.com/mechta_tkani
-        Наш сайт https://zakutokmedia.ru
-        Наш инстаграм https://www.instagram.com/zakutokmediaru
+          <b>Полезные ссылки:</b>
+          <br>
 
-        Пишите нам в Телеграм https://t.me/Koko3kote
-        </description>
+          <p>Инстаграм «Мечты»</p>
+          <p><a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a></p>
+          <br>
+
+          <p>Наш сайт</p>
+          <p><a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a></p>
+          <br>
+
+          <p>Наш инстаграм</p>
+          <p><a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a></p>
+          <br>
+
+          <p>Пишите нам в Телеграм, отвечает Костя</p>
+          <p><a href='https://t.me/Koko3kote'>Koko3kote</a></p>`
+        )}
         ${paintChapters('1')}
         ${getDuration('1')}
         <itunes:explicit>true</itunes:explicit>

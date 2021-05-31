@@ -58,7 +58,8 @@ section#shmarketing.podcast
     a(href='https://anchor.fm/s/48344ed0/podcast/rss' target='_blank') RSS
 
 section#gosuch.podcast
-  h1.logotype.gosuch Gosuch
+  a(sveltekit:prefetch href='/gosuch').logotype.gosuch
+    h1 Gosuch
   .description_block
     p.p.text
       | Подкаст о людях, за&shy;ни&shy;маю&shy;щихся инте&shy;ре&shy;сным делом. Мы ни&shy;чего не понимаем в том, что они делают, поэтому при&shy;глаш&shy;аем их и разбирае&shy;мся
@@ -226,6 +227,7 @@ section.about
 }
 
 .logotype {
+  display: block;
   color: transparent;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -511,6 +513,7 @@ section.about
 
     @media ( width > 1280px ){
       font-size: 60px;
+      text-transform: none;
     }
   }
 }
