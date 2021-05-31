@@ -38,7 +38,13 @@ function getDuration(fileName, format = audioFormat){
   return `<itunes:duration>${duration}</itunes:duration>`
 }
 
-
+function getDescription(text){
+  let description = `<description>${text}<description>`;
+  //we dublicate summary, because apple hides description if there is a summary
+  //but if we have no summary we cant see subtitle
+  let summary = `<itunes:summary>${text}</itunes:summary>`;
+   return description+summary
+}
 
 function paintChapters(fileName, format = audioFormat){
   let chapter = getAudioTags(fileName, format).chapter
@@ -141,6 +147,7 @@ function buildFeed(){
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
         <title>Пилотный выпуск</title>
+        <itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle>
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         <description>
