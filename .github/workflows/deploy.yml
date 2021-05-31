@@ -18,6 +18,7 @@ jobs:
             git reset --hard HEAD
             git clean -f -d
             git pull
+            npm install
             pm2 delete all
             pm2 start ecosystem.config.cjs
           host: 82.148.28.242

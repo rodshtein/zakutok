@@ -102,11 +102,7 @@ function buildFeed(){
       <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/>
       ${getDescription(
         `<p>Подкаст о людях, которые занимаются интересными делами.</p>
-        <br>
-
         <p>Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.</p>
-        <br>
-
         <p>Наш сайт: <a href='https://zakutokmedia.ru/gosuch'>zakutokmedia.ru/gosuch</a></p>`
       )}
       <image>
@@ -146,33 +142,21 @@ function buildFeed(){
         ${getFileTag('1')}
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         ${getDescription(
-          `<p><b>Поговорили о тканях с Наташей Балахонцевой.</b></p>
-          <br>
+          `<p>Поговорили о тканях с Наташей Балахонцевой.</p>
 
           <p>У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.</p>
-          <br>
 
-          <p><b>Ведущие выпуска:</b></p>
-          <p>Лида Чапко, Никита Новосёлов, Костя Коковихин</p>
-          <br>
+          <p>Ведущие выпуска:<br>Лида Чапко, Никита Новосёлов, Костя Коковихин</p>
 
-          <b>Полезные ссылки:</b>
-          <br>
+          <p>Полезные ссылки:</p>
 
-          <p>Инстаграм «Мечты»</p>
-          <p><a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a></p>
-          <br>
+          <p>Инстаграм «Мечты»<br><a href='https://www.instagram.com/mechta_tkani'>mechta_tkani</a></p>
 
-          <p>Наш сайт</p>
-          <p><a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a></p>
-          <br>
+          <p>Наш сайт<br><a href='https://zakutokmedia.ru/gosuch'>Zakutokmedia.ru/gosuch</a></p>
 
-          <p>Наш инстаграм</p>
-          <p><a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a></p>
-          <br>
+          <p>Наш инстаграм<br><a href='https://www.instagram.com/gosuchornotgosuch'>gosuchornotgosuch</a></p>
 
-          <p>Пишите нам в Телеграм, отвечает Костя</p>
-          <p><a href='https://t.me/Koko3kote'>Koko3kote</a></p>`
+          <p>Пишите нам в Телеграм, отвечает Костя<br><a href='https://t.me/Koko3kote'>Koko3kote</a></p>`
         )}
         ${paintChapters('1')}
         ${getDuration('1')}
