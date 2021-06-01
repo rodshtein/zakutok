@@ -95,6 +95,15 @@ function buildFeed(){
 
 Ведущие шоу:
 Лида Чапко, Никита Новосёлов, Костя Коковихин
+
+Наш сайт:
+https://zakutokmedia.ru/gosuch
+
+Наш инстаграм:
+https://instagram.com/gosuchornotgosuch
+
+Пишите нам в Телеграм:
+https://t.me/Koko3kote
       </description>
       <image>
         <title>Gosuch Подкаст</title>
@@ -146,16 +155,16 @@ function buildFeed(){
 Лида Чапко, Никита Новосёлов, Костя Коковихин
 
 Инстаграм «Мечты»:
-instagram.com/mechta_tkani
+https://instagram.com/mechta_tkani
 
 Наш сайт:
-zakutokmedia.ru/gosuch
+https://zakutokmedia.ru/gosuch
 
 Наш инстаграм:
-instagram.com/gosuchornotgosuch
+https://instagram.com/gosuchornotgosuch
 
 Пишите нам в Телеграм:
-t.me/Koko3kote
+https://t.me/Koko3kote
         </description>
         ${getFileTag('1')}
         ${getDuration('1')}
