@@ -1,19 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?><rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" ><channel><title>Gosuch</title><itunes:title>Gosuch</itunes:title><link>https://zakutokmedia.ru/gosuch</link><atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/><description>
+<?xml version='1.0' encoding='UTF-8'?><rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" ><channel><title>Gosuch</title><itunes:title>Gosuch</itunes:title><link>https://zakutokmedia.ru/gosuch</link><atom:link href="https://zakutokmedia.ru/gosuch/rss" rel="self" type="application/rss+xml"/><description>
 Подкаст о людях, которые занимаются интересными делами.
 Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
 
 Ведущие шоу:
 Лида Чапко, Никита Новосёлов, Костя Коковихин
-
-Наш сайт
-zakutokmedia.ru/gosuch
-
-Наш инстаграм
-instagram.com/gosuchornotgosuch
-
-Пишите нам в Телеграм
-t.me/Koko3kote
-      </description><image><title>Gosuch Подкаст</title><link>https://zakutokmedia.ru/gosuch</link><url>https://zakutokmedia.ru/covers/gosuch.jpg</url></image><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><copyright>СС BY-NC-ND 4.0</copyright><language>ru</language><spotify:countryOfOrigin>ru</spotify:countryOfOrigin><managingEditor>kk@kokovikhin.digital (Костя Коковихин)</managingEditor><webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster><pubDate>Tue, 01 Jun 2021 01:59:21 GMT</pubDate><lastBuildDate>Tue, 01 Jun 2021 01:59:21 GMT</lastBuildDate><ttl>60</ttl><itunes:explicit>yes</itunes:explicit><itunes:type>episodic</itunes:type><itunes:owner><itunes:name>Zakutok Media</itunes:name><itunes:email>kk@kokovikhin.digital</itunes:email></itunes:owner><itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/><itunes:category text="Comedy"><itunes:category text="Comedy Interviews" /></itunes:category><itunes:category text="Business"><itunes:category text="Non-Profit" /></itunes:category><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>Пилотный выпуск</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate><description>
+      </description><image><title>Gosuch Подкаст</title><link>https://zakutokmedia.ru/gosuch</link><url>https://zakutokmedia.ru/covers/gosuch.jpg</url></image><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><copyright>СС BY-NC-ND 4.0</copyright><language>ru</language><spotify:countryOfOrigin>ru</spotify:countryOfOrigin><managingEditor>kk@kokovikhin.digital (Костя Коковихин)</managingEditor><webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster><pubDate>Tue, 01 Jun 2021 11:23:48 GMT</pubDate><lastBuildDate>Tue, 01 Jun 2021 11:23:48 GMT</lastBuildDate><ttl>60</ttl><itunes:explicit>yes</itunes:explicit><itunes:type>episodic</itunes:type><itunes:owner><itunes:name>Zakutok Media</itunes:name><itunes:email>kk@kokovikhin.digital</itunes:email></itunes:owner><itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/><itunes:category text="Comedy"><itunes:category text="Comedy Interviews" /></itunes:category><itunes:category text="Business"><itunes:category text="Non-Profit" /></itunes:category><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>Пилотный выпуск</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate><description>
 Поговорили о тканях с Наташей Балахонцевой.
 
 У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
@@ -24,15 +15,15 @@ t.me/Koko3kote
 Ведущие выпуска:
 Лида Чапко, Никита Новосёлов, Костя Коковихин
 
-Инстаграм «Мечты»
+Инстаграм «Мечты»:
 instagram.com/mechta_tkani
 
-Наш сайт
+Наш сайт:
 zakutokmedia.ru/gosuch
 
-Наш инстаграм
+Наш инстаграм:
 instagram.com/gosuchornotgosuch
 
-Пишите нам в Телеграм
+Пишите нам в Телеграм:
 t.me/Koko3kote
-        </description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/1.mp3"  length="23325166" type="audio/mpeg"/><itunes:duration>00:48:18</itunes:duration><psc:chapters><psc:chapter start="00:06:25" title="Карьера" /><psc:chapter start="00:09:37" title="Кто идёт покупать ткани" /><psc:chapter start="00:13:51" title="Про потребности клиентов" /><psc:chapter start="00:16:06" title="Как и где закупают ткани" /><psc:chapter start="00:17:40" title="Про вкус" /><psc:chapter start="00:18:26" title="Почему Италия?" /><psc:chapter start="00:19:36" title="Инсайдерская информация" /><psc:chapter start="00:20:38" title="Ткани — это про офлайн" /><psc:chapter start="00:22:51" title="Про выбор тканей" /><psc:chapter start="00:24:31" title="Про стоимость пошива" /><psc:chapter start="00:26:00" title="Про процесс пошива" /><psc:chapter start="00:27:47" title="Про мастеров города" /><psc:chapter start="00:29:18" title="Рост популярности пошива" /><psc:chapter start="00:31:01" title="Как одеваются люди в городе" /><psc:chapter start="00:32:27" title="Популяризация пошива" /><psc:chapter start="00:33:19" title="Про «Первый раз»" /><psc:chapter start="00:36:55" title="Про экологию" /><psc:chapter start="00:37:53" title="«Гусиная лапка»" /><psc:chapter start="00:38:37" title="«Леопардин»" /><psc:chapter start="00:41:09" title="Вкусовщина и стереотипы" /></psc:chapters></item></channel></rss>
+        </description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/1.mp3"  length="23325166" type="audio/mpeg"/><itunes:duration>2898</itunes:duration><psc:chapters><psc:chapter start="00:06:25" title="Карьера" /><psc:chapter start="00:09:37" title="Кто идёт покупать ткани" /><psc:chapter start="00:13:51" title="Про потребности клиентов" /><psc:chapter start="00:16:06" title="Как и где закупают ткани" /><psc:chapter start="00:17:40" title="Про вкус" /><psc:chapter start="00:18:26" title="Почему Италия?" /><psc:chapter start="00:19:36" title="Инсайдерская информация" /><psc:chapter start="00:20:38" title="Ткани — это про офлайн" /><psc:chapter start="00:22:51" title="Про выбор тканей" /><psc:chapter start="00:24:31" title="Про стоимость пошива" /><psc:chapter start="00:26:00" title="Про процесс пошива" /><psc:chapter start="00:27:47" title="Про мастеров города" /><psc:chapter start="00:29:18" title="Рост популярности пошива" /><psc:chapter start="00:31:01" title="Как одеваются люди в городе" /><psc:chapter start="00:32:27" title="Популяризация пошива" /><psc:chapter start="00:33:19" title="Про «Первый раз»" /><psc:chapter start="00:36:55" title="Про экологию" /><psc:chapter start="00:37:53" title="«Гусиная лапка»" /><psc:chapter start="00:38:37" title="«Леопардин»" /><psc:chapter start="00:41:09" title="Вкусовщина и стереотипы" /></psc:chapters></item></channel></rss>

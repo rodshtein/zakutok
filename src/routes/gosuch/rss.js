@@ -33,9 +33,8 @@ function getFileTag(fileName, {
 };
 
 function getDuration(fileName, format = audioFormat){
-  let length = getAudioTags(fileName, format).length
-  let duration = new Date(Math.ceil(length)).toISOString().substr(11, 8);
-  return `<itunes:duration>${duration}</itunes:duration>`
+  let seconds = getAudioTags(fileName, format).length/1000;
+  return `<itunes:duration>${seconds}</itunes:duration>`
 }
 
 function paintChapters(fileName, format = audioFormat){
@@ -86,24 +85,16 @@ function buildFeed(){
     <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" >
     <channel>
       <title>Gosuch</title>
+
       <itunes:title>Gosuch</itunes:title>
       <link>https://zakutokmedia.ru/gosuch</link>
-      <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/>
+      <atom:link href="https://zakutokmedia.ru/gosuch/rss" rel="self" type="application/rss+xml"/>
       <description>
 Подкаст о людях, которые занимаются интересными делами.
 Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
 
 Ведущие шоу:
 Лида Чапко, Никита Новосёлов, Костя Коковихин
-
-Наш сайт
-zakutokmedia.ru/gosuch
-
-Наш инстаграм
-instagram.com/gosuchornotgosuch
-
-Пишите нам в Телеграм
-t.me/Koko3kote
       </description>
       <image>
         <title>Gosuch Подкаст</title>
@@ -154,16 +145,16 @@ t.me/Koko3kote
 Ведущие выпуска:
 Лида Чапко, Никита Новосёлов, Костя Коковихин
 
-Инстаграм «Мечты»
+Инстаграм «Мечты»:
 instagram.com/mechta_tkani
 
-Наш сайт
+Наш сайт:
 zakutokmedia.ru/gosuch
 
-Наш инстаграм
+Наш инстаграм:
 instagram.com/gosuchornotgosuch
 
-Пишите нам в Телеграм
+Пишите нам в Телеграм:
 t.me/Koko3kote
         </description>
         ${getFileTag('1')}
