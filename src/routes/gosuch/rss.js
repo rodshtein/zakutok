@@ -90,25 +90,27 @@ function buildFeed(){
       <link>https://zakutokmedia.ru/gosuch</link>
       <atom:link href="https://zakutokmedia.ru/gosuch/rss" type="application/rss+xml"/>
       <description>
-        Подкаст о людях, которые занимаются интересными делами.
-        Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
+Подкаст о людях, которые занимаются интересными делами.
+Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытем.
 
-        Наш сайт
-        zakutokmedia.ru/gosuch
+Ведущие шоу:
+Лида Чапко, Никита Новосёлов, Костя Коковихин
 
-        Наш инстаграм
-        instagram.com/gosuchornotgosuch
+Наш сайт
+zakutokmedia.ru/gosuch
 
-        Пишите нам в Телеграм, отвечает Костя
-        t.me/Koko3kote
+Наш инстаграм
+instagram.com/gosuchornotgosuch
+
+Пишите нам в Телеграм
+t.me/Koko3kote
       </description>
       <image>
         <title>Gosuch Подкаст</title>
         <link>https://zakutokmedia.ru/gosuch</link>
         <url>https://zakutokmedia.ru/covers/gosuch.jpg</url>
       </image>
-      <author>Лида, Никита и Костя</author>
-      <itunes:author>Лида, Никита и Костя</itunes:author>
+      <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
       <copyright>СС BY-NC-ND 4.0</copyright>
       <language>ru</language>
       <spotify:countryOfOrigin>ru</spotify:countryOfOrigin>
@@ -116,6 +118,7 @@ function buildFeed(){
       <webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster>
       <pubDate>${new Date().toUTCString()}</pubDate>
       <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+      <ttl>60</ttl>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:type>episodic</itunes:type>
       <itunes:owner>
@@ -129,12 +132,11 @@ function buildFeed(){
       <itunes:category text="Business">
         <itunes:category text="Non-Profit" />
         </itunes:category>
-      <ttl>60</ttl>
       <item>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
         <title>Пилотный выпуск</title>
-        <itunes:author>Лида Чапко, Никита Новосёлов, Костя Коковихин</itunes:author>
+        <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
         <itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle>
         <itunes:explicit>yes</itunes:explicit>
         <itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords>
@@ -142,24 +144,27 @@ function buildFeed(){
         <link>https://zakutokmedia.ru</link>
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
         <description>
-          Поговорили о тканях с Наташей Балахонцевой.
+Поговорили о тканях с Наташей Балахонцевой.
 
-          У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
 
-          Ведущие выпуска:
-          Лида Чапко, Никита Новосёлов, Костя Коковихин
+Гость выпуска:
+Наташа Балахонцева
 
-          Инстаграм «Мечты»
-          instagram.com/mechta_tkani
+Ведущие выпуска:
+Лида Чапко, Никита Новосёлов, Костя Коковихин
 
-          Наш сайт
-          zakutokmedia.ru/gosuch
+Инстаграм «Мечты»
+instagram.com/mechta_tkani
 
-          Наш инстаграм
-          instagram.com/gosuchornotgosuch
+Наш сайт
+zakutokmedia.ru/gosuch
 
-          Пишите нам в Телеграм, отвечает Костя
-          t.me/Koko3kote
+Наш инстаграм
+instagram.com/gosuchornotgosuch
+
+Пишите нам в Телеграм
+t.me/Koko3kote
         </description>
         ${getFileTag('1')}
         ${getDuration('1')}
