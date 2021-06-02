@@ -98,8 +98,10 @@ section#gosuch.podcast
   .links
     a(href='https://podcasts.apple.com/us/podcast/gosuch/id1570029023' target='_blank') Apple Podcasts
     a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
-    a(href='https://overcast.fm/itunes1570029023/gosuch' target='_blank') Overcast
+    a(href='https://podcasts.google.com/feed/aHR0cHM6Ly96YWt1dG9rbWVkaWEucnUvZ29zdWNoL3Jzcw==' target='_blank') Google Podcasts
     a(href='https://open.spotify.com/show/3CHBF0gw04uwxM6ESqlz2j' target='_blank') Spotify
+    a(href='https://pca.st/bmpwc9yv' target='_blank') Pocket Casts
+    a(href='https://overcast.fm/itunes1570029023/gosuch' target='_blank') Overcast
     a(href='https://castro.fm/podcast/ef8db0ee-5698-4f01-a65e-40073c0ca41e' target='_blank') Castro
     a(href='https://radiopublic.com/gosuch-6rj7RK' target='_blank') Radio Public
     a(href='https://zakutokmedia.ru/gosuch/rss' target='_blank') RSS
