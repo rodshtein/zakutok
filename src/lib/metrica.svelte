@@ -1,17 +1,21 @@
 <script >
   import { onMount } from 'svelte'
-
-  const DEV = import.meta.env.VITE_DEV ? true : false;
+  import { dev } from '$app/env';
 
   export let id = null;
   export let clickmap = true
   export let trackLinks = true
   export let accurateTrackBounce = true
-  export let src = "https://mc.yandex.ru/metrika/watch.js"
+  export let src = "https://mc.yandex.ru/metrika/tag.js"
 
   onMount(() => {
-    if (!DEV || !id) return
+    if (dev || !id) return
     init()
+
+
+    document.on(`yacounter${id}inited`, () => {
+      console.log(`счетчик yaCounter${id} можно использовать`);
+    });
   })
 
   function init() {
@@ -29,7 +33,9 @@
   }
 
   function initCounter() {
-    window['yaCounter'+id] = new Ya.Metrika({
+    console.log('init Ya Metrika')
+
+    window['yaCounter'+id] = new Ya.Metrika2({
       defer: true,
       id,
       clickmap,
