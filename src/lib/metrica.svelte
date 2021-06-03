@@ -16,29 +16,27 @@
     document.addEventListener( `yacounter${id}inited`,
     () => console.log(`счетчик yaCounter${id} можно использовать`));
 
-    init()
+    // init()
   })
 
-  function init() {
-    // getScript().onload = initCounter
-  }
 
-  function getScript() {
+  function init() {
+    window.ym = window.ym || function () {
+      (window.ym.a = window.ym.a || []).push(arguments)
+   };
+
+   window.ym.l = 1 * new Date();
+
+
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.async = true;
     script.src = src;
 
     document.body.appendChild(script)
-    return script
-  }
 
-  function initCounter() {
-    console.log('init Ya Metrika')
-
-    window['yaCounter'+id] = new Ya.Metrika2({
+    ym(id, "init", {
       defer: true,
-      id,
       clickmap,
       trackLinks,
       accurateTrackBounce,
