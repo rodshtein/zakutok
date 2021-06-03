@@ -6,6 +6,8 @@
   export let clickmap = true
   export let trackLinks = true
   export let accurateTrackBounce = true
+  export let triggerEvent = true
+  export let webvisor = false
   export let src = "https://mc.yandex.ru/metrika/tag.js"
 
   onMount(() => {
@@ -39,7 +41,9 @@
       id,
       clickmap,
       trackLinks,
-      accurateTrackBounce
+      accurateTrackBounce,
+      triggerEvent,
+      webvisor
     });
   }
 </script>
