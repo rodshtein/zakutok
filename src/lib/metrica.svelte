@@ -52,7 +52,7 @@
     script.src = src
 
 
-    firstScript.parentNode.insertBefore(script, FirstScript)
+    firstScript.parentNode.insertBefore(script, firstScript)
 
     ym(id, "init", {
       defer: true,
