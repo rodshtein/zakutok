@@ -10,12 +10,11 @@
 
   onMount(() => {
     if (dev || !id) return
+
+    document.addEventListener( `yacounter${id}inited`,
+    () => console.log(`счетчик yaCounter${id} можно использовать`));
+
     init()
-
-
-    document.on(`yacounter${id}inited`, () => {
-      console.log(`счетчик yaCounter${id} можно использовать`);
-    });
   })
 
   function init() {
