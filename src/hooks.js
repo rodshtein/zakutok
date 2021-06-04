@@ -10,6 +10,8 @@ export const handle = async ({ request, render }) => {
 		request.method = request.query.get('_method').toUpperCase();
 	}
 
+	console.log(request)
+
 	const response = await render(request);
 
 	if (!cookies.userid) {
