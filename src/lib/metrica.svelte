@@ -5,21 +5,20 @@
     if(initialized) return;
 
     initialized = true;
-    // Init ym function
-    // Check for already func init in app.html or by GTM
-    window.ym = window.ym || function(){
-      window.ym.a = window.ym.a || []
-      window.ym.a.push(arguments)
+
+    setMetrika(window, document, "script", baseUrl, "ym");
+  }
+
+  function setMetrika(m,e,t,r,i,k,a){
+    m[i]=m[i]||function(){
+      (m[i].a=m[i].a||[]).push(arguments)
     };
-
-    window.ym.l = 1 * new Date();
-
-    // Get Y.Metrica script
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.async = true;
-    script.src = baseUrl;
-    document.head.append(script)
+    m[i].l=1*new Date();
+    k=e.createElement(t),
+    a=e.getElementsByTagName(t)[0],
+    k.async=1,
+    k.src=r,
+    a.parentNode.insertBefore(k,a)
   }
 </script>
 
