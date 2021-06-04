@@ -40,10 +40,11 @@
 				script.type = "text/javascript";
 				script.async = true;
 				script.src = baseUrl;
-				document.head.append(script)
+				document.head.prepend(script)
 			}
 
-			set(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+			init("https://mc.yandex.ru/metrika/tag.js");
+			// set(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
 			ym(79779982, "init", {
 					clickmap:true,
