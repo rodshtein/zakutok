@@ -28,3 +28,26 @@ ym(79779982, "init", {
 });
 
 
+function run(elem){
+   window["ym"]= function(){
+      window["ym"].a=[]
+      window["ym"].a.push(arguments)
+   };
+
+   window["ym"].l=  1 * new Date();
+
+   elem=document.createElement("script")
+   firstNode=document.getElementsByTagName("script")[0]
+   elem.async=1,
+   elem.src= "https://mc.yandex.ru/metrika/tag.js",
+   firstNode.parentNode.insertBefore(elem,firstNode)
+}
+
+
+ym(79779982, "init", {
+      trackLinks: true,
+      accurateTrackBounce: true,
+      triggerEvent: true,
+      clickmap: false,
+     webvisor: false,
+});
