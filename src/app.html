@@ -12,5 +12,28 @@
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
+		<script>
+			function set(m,e,t,r,i,k,a){
+				window.ym = window.ym || function(){
+					window.ym.a = window.ym.a || []
+					window.ym.a.push(arguments)
+				};
+				window.ym.l = 1 * new Date();
+
+				k=e.createElement(t)
+				a=e.getElementsByTagName(t)[0]
+				k.async=1
+				k.src=r
+				a.parentNode.insertBefore(k,a)
+			}
+
+			set(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+			ym(79779982, "init", {
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true
+			});
+		</script>
 	</body>
 </html>
