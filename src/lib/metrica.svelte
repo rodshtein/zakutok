@@ -5,6 +5,8 @@
     if(initialized) return;
 
     initialized = true;
+    run()
+    return;
     // Init ym function
     // Check for already func init in app.html or by GTM
     window.ym = window.ym || function(){
@@ -21,12 +23,27 @@
     script.src = baseUrl;
     document.head.append(script)
   }
+
+  function run(elem, firstNode){
+    window["ym"]= function(){
+        window["ym"].a=[]
+        window["ym"].a.push(arguments)
+    };
+
+    window["ym"].l=  1 * new Date();
+
+    elem=document.createElement("script")
+    firstNode=document.getElementsByTagName("script")[0]
+    elem.async=1,
+    elem.src= "https://mc.yandex.ru/metrika/tag.js",
+    firstNode.parentNode.insertBefore(elem,firstNode)
+  }
 </script>
 
 <script>
   import { onMount } from 'svelte'
-  import { dev } from '$app/env';
-  // let dev = false;
+  // import { dev } from '$app/env';
+  let dev = false;
 
   export let scriptURL = null;
   export let useCDN = false;

@@ -8,13 +8,10 @@
 
 	$: section = $page.path.split('/')[1];
 
-	let options = {
-		accurateTrackBounce: false
-	};
 </script>
 
 
-<Metrica id="79779982" options="{options}"/>
+<Metrica id="79779982"/>
 
 <!-- <Nav {section}/> -->
 
