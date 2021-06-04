@@ -26,8 +26,6 @@
 			}
 
 			function init(baseUrl) {
-				// Init ym function
-				// Check for already func init in app.html or by GTM
 				window.ym = window.ym || function(){
 					window.ym.a = window.ym.a || []
 					window.ym.a.push(arguments)
@@ -43,7 +41,7 @@
 				document.head.append(script)
 			}
 
-			init("https://mc.yandex.ru/metrika/tag.js");
+			set(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
 			ym(79779982, "init", {
 					clickmap:true,
