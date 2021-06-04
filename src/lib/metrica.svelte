@@ -5,8 +5,6 @@
     if(initialized) return;
 
     initialized = true;
-    run()
-    return;
     // Init ym function
     // Check for already func init in app.html or by GTM
     window.ym = window.ym || function(){
@@ -23,24 +21,12 @@
     script.src = baseUrl;
     document.head.append(script)
   }
-
-  function run(){
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(79779982, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-  }
 </script>
 
 <script>
   import { onMount } from 'svelte'
-  // import { dev } from '$app/env';
-  let dev = false;
+  import { dev } from '$app/env';
+  //let dev = false;
 
   export let scriptURL = null;
   export let useCDN = false;
@@ -73,7 +59,7 @@
 
       init(baseUrl)
 
-      // ym(id, "init", Object.assign(defaultOptions, options));
+      ym(id, "init", Object.assign(defaultOptions, options));
     }
   })
 
