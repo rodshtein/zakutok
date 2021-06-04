@@ -6,18 +6,20 @@
 
     initialized = true;
 
-    setMetrika(window, document, "script", baseUrl, "ym");
+    set();
   }
 
-  function setMetrika(m,e,t,r,i,k,a){
-    m[i]=m[i]||function(){
-      (m[i].a=m[i].a||[]).push(arguments)
+  function set(k,a){
+    window.ym = window.ym || function(){
+      window.ym.a = window.ym.a || []
+      window.ym.a.push(arguments)
     };
-    m[i].l=1*new Date();
-    k=e.createElement(t),
-    a=e.getElementsByTagName(t)[0],
-    k.async=1,
-    k.src=r,
+    window.ym.l = 1 * new Date();
+
+    k=document.createElement("script")
+    a=document.getElementsByTagName("script")[0]
+    k.async=1
+    k.src="https://mc.yandex.ru/metrika/tag.js"
     a.parentNode.insertBefore(k,a)
   }
 </script>
