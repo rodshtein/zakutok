@@ -24,19 +24,16 @@
     document.head.append(script)
   }
 
-  function run(elem, firstNode){
-    window["ym"]= function(){
-        window["ym"].a=[]
-        window["ym"].a.push(arguments)
-    };
+  function run(){
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    window["ym"].l=  1 * new Date();
-
-    elem=document.createElement("script")
-    firstNode=document.getElementsByTagName("script")[0]
-    elem.async=1,
-    elem.src= "https://mc.yandex.ru/metrika/tag.js",
-    firstNode.parentNode.insertBefore(elem,firstNode)
+   ym(79779982, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
   }
 </script>
 
@@ -76,7 +73,7 @@
 
       init(baseUrl)
 
-      ym(id, "init", Object.assign(defaultOptions, options));
+      // ym(id, "init", Object.assign(defaultOptions, options));
     }
   })
 
