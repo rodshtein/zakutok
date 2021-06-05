@@ -20,11 +20,11 @@
 				};
 				window.ym.l = 1 * new Date();
 
-				k=document.createElement("script")
-				a=document.getElementsByTagName("script")[0]
-				k.async=1
-				k.src="https://mc.yandex.ru/metrika/tag.js"
-				a.parentNode.insertBefore(k,a)
+				let node = document.createElement("script")
+				let target = document.getElementsByTagName("script")[0]
+				node.async=1
+				node.src="https://mc.yandex.ru/metrika/tag.js"
+				target.parentNode.insertBefore(node,target)
 			}
 
 			set();
