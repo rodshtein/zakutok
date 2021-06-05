@@ -11,7 +11,7 @@
 </script>
 
 
-<Metrica id="79779982"/>
+<!-- <Metrica id="79779982"/> -->
 
 <!-- <Nav {section}/> -->
 
