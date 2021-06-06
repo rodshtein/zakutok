@@ -12,6 +12,8 @@ export const handle = async ({ request, render }) => {
 
 	const response = await render(request);
 
+	console.log(request)
+
 	if (!cookies.userid) {
 		// if this is the first time the user has visited this app,
 		// set a cookie so that we recognise them when they return
