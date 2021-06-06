@@ -1,5 +1,6 @@
 import cookie from 'cookie';
 import { v4 as uuid } from '@lukeed/uuid';
+import { ymHandler } from '$lib/metrika/metrika1.js';
 
 export const handle = async ({ request, render }) => {
 	const cookies = cookie.parse(request.headers.cookie || '');
@@ -10,9 +11,8 @@ export const handle = async ({ request, render }) => {
 		request.method = request.query.get('_method').toUpperCase();
 	}
 
-	const response = await render(request);
 
-	console.log(request)
+	let response = await render(request);
 
 	if (!cookies.userid) {
 		// if this is the first time the user has visited this app,
@@ -20,5 +20,5 @@ export const handle = async ({ request, render }) => {
 		response.headers['set-cookie'] = `userid=${request.locals.userid}; Path=/; HttpOnly`;
 	}
 
-	return response;
+	return ymHandler(request, 79779982, response);
 };

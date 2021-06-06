@@ -34,4 +34,23 @@ function addCounters(options, async=false){
 }
 
 
+export function shortBody(id){
+  let options = [{id}];
+  let response = {
+    status: 200,
+    headers: { 'content-type':'text/html' },
+    body: `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><link rel="icon" href="/favicon.ico" />${metrica({options})}</head><body></body></html>`
+  };
+  return response
+}
 
+const ymAgent = "Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)";
+
+
+export function ymHandler(request, id, response){
+  if( request.headers['user-agent'] === ymAgent ) {
+    return shortBody(id)
+  } else {
+    return response
+  }
+}

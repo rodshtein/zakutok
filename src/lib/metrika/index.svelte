@@ -1,5 +1,5 @@
 <script>
-  import { metrica } from './metrica1.js'
+  import { metrica } from './metrika1.js'
   import { onMount } from 'svelte'
   import { dev } from '$app/env';
   //let dev = false;

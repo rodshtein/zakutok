@@ -1,0 +1,23 @@
+// Yandex req
+
+// host: 'localhost:3000',
+// method: 'GET',
+// headers: {
+//    'x-real-ip': '37.9.118.29',
+//   'x-forwarded-for': '37.9.118.29',
+//   'x-forwarded-proto': 'https',
+//   'x-forwarded-host': 'www.zakutokmedia.ru',
+//   'x-forwarded-port': '443',
+//   host: 'localhost:3000',
+//   connection: 'close',
+//   accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+//   'user-agent': 'Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)',
+//   'accept-encoding': 'gzip, deflate',
+//   'accept-language': 'en-US,*'
+// },
+// path: '/',
+// query: URLSearchParams {},
+// rawBody: null,
+// body: null,
+// params: null,
+// locals: { userid: 'df1c567a-de0f-4f59-ba95-f9fad129621b' }
