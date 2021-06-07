@@ -20,9 +20,9 @@ export const handle = async ({ request, render }) => {
 		response.headers['set-cookie'] = `userid=${request.locals.userid}; Path=/; HttpOnly`;
 	}
 
-	return ymHandler(
-		request.headers['user-agent'],
-		{id: 79779982},
-		response
-		);
+	return ymHandler({
+		userAgent: request.headers['user-agent'],
+		options: {id: 79779982},
+		response: response
+	});
 };

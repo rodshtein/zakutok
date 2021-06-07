@@ -42,14 +42,32 @@ export function bodyConstructor(options, response){
 
 
 
-export function ymHandler(ua, options, response){
+export function ymHandler({userAgent=null, options=null, response=null}={}){
+  if(!userAgent, !options) {
+    let lossData = [];
+    if (!userAgent)lossData.push('user-agent')
+    if (!options)lossData.push('options')
+
+    console.error(`[Y.Metrika][ymHandler] No provide data for ${lossData.join(', ')}`)
+    return response
+  }
+
+  if(!response) {
+    console.error(`[Y.Metrika][ymHandler] No provide data for response`)
+    return {
+			status: 500,
+      body: '[Y.Metrika][ymHandler] No provide data for response'
+		}
+  }
+
   options = Array.isArray(options) ? options : [options];
-  if(ua.toLowerCase().includes("metrika") &&
-  ua.toLowerCase().includes("yandex")){
+
+  if(userAgent?.toLowerCase().includes("metrika") &&
+  userAgent?.toLowerCase().includes("yandex")){
     if(validOptions(options)) {
       return bodyConstructor(options, response)
     } else {
-      console.info("[Y.Metrika][Hook] Can't find all YM ID's! Check options")
+      console.error("[Y.Metrika][Hook] Can't find all YM ID's! Check options")
       return response
     }
   } else {
