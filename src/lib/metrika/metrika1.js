@@ -69,16 +69,17 @@ export function initMetrika({lazy=false, scriptURL=null, useCDN = false, options
   }
 
   let method = "yandex_metrika_callbacks";
-  window[method] = window[method] || []
+  window[method] = window[method] || [];
   window[method].push(function() {
       try {
         options.forEach((counter)=>{
           window['yaCounter' + counter.id] = new Ya.Metrika(
-            JSON.stringify(Object.assign(defaultOptions, counter))
+            Object.create(Object.assign(defaultOptions, counter))
           )
-        });
+        })
       } catch(e){}
   });
+
 
   let script = document.createElement("script");
   script.type = "text/javascript";
@@ -86,8 +87,8 @@ export function initMetrika({lazy=false, scriptURL=null, useCDN = false, options
   script.src = getBaseUrl(scriptURL, useCDN);
 
   if(lazy){
-    window.onload = document.head.appendChild(script)
+    window.onload = document.documentElement.prepend(script)
   } else {
-    document.head.appendChild(script)
+    document.documentElement.prepend(script)
   }
 }

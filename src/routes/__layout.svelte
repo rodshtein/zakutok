@@ -10,7 +10,7 @@
 
 	$: section = $page.path.split('/')[1];
 
-	onMount(() => initMetrika({lazy:true, options:{id:79779982}}));
+	onMount(() => initMetrika({options:{id:79779982}}));
 
 </script>
 
