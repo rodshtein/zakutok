@@ -1,5 +1,5 @@
 <script>
-  import { metrica } from './metrika1.js'
+  import { tagConstructor } from './metrika1.js'
   import { onMount } from 'svelte'
   import { dev } from '$app/env';
   //let dev = false;
@@ -28,6 +28,6 @@
 
 <svelte:head>
   {#if validOptions}
-    {@html metrica({async, scriptURL, useCDN, options})}
+    {@html tagConstructor({async, scriptURL, useCDN, options})}
   {/if}
 </svelte:head>

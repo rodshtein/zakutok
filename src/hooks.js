@@ -12,7 +12,7 @@ export const handle = async ({ request, render }) => {
 	}
 
 
-	let response = await render(request);
+	const response = await render(request);
 
 	if (!cookies.userid) {
 		// if this is the first time the user has visited this app,
@@ -20,5 +20,9 @@ export const handle = async ({ request, render }) => {
 		response.headers['set-cookie'] = `userid=${request.locals.userid}; Path=/; HttpOnly`;
 	}
 
-	return ymHandler(request, 79779982, response);
+	return ymHandler(
+		request.headers['user-agent'],
+		{id: 79779982},
+		response
+		);
 };
