@@ -53,6 +53,7 @@ section#gosuch.podcast
 
   h2.h3 Послушать
   .links
+    a(href='https://www.youtube.com/playlist?list=PL1n0DH3VhKrxbBd4XTY8dGk79_uWtgo1w' target='_blank') YouTube
     a(href='https://podcasts.apple.com/us/podcast/gosuch/id1570029023' target='_blank') Apple Podcasts
     a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
     a(href='https://podcasts.google.com/feed/aHR0cHM6Ly96YWt1dG9rbWVkaWEucnUvZ29zdWNoL3Jzcw==' target='_blank') Google Podcasts

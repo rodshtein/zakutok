@@ -96,6 +96,7 @@ section#gosuch.podcast
 
   h2.h3 Послушать
   .links
+    a(href='https://www.youtube.com/playlist?list=PL1n0DH3VhKrxbBd4XTY8dGk79_uWtgo1w' target='_blank') YouTube
     a(href='https://podcasts.apple.com/us/podcast/gosuch/id1570029023' target='_blank') Apple Podcasts
     a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
     a(href='https://podcasts.google.com/feed/aHR0cHM6Ly96YWt1dG9rbWVkaWEucnUvZ29zdWNoL3Jzcw==' target='_blank') Google Podcasts
@@ -212,7 +213,7 @@ section.about
         span Продвигает
 
   p.text
-    | Подкастерск&shy;ий за&shy;кут&shy;ок нера&shy;внод&shy;ушн&shy;ых реб&shy;ят из Вла&shy;дивос&shy;тока. Бо&shy;лта&shy;ем и пиш&shy;ем в 410 кабине&shy;те на Посье&shy;тс&shy;кой, 45. Zakutok.media — неко&shy;ммерче&shy;ский прое&shy;кт гру&shy;ппы компа&shy;ний
+    | Подкастерск&shy;ий за&shy;кут&shy;ок нера&shy;внод&shy;ушн&shy;ых реб&shy;ят из Вла&shy;дивос&shy;тока. Бо&shy;лта&shy;ем и пиш&shy;ем в 410 кабине&shy;те на Посье&shy;тс&shy;кой, 45. Zakutok media — неко&shy;ммерче&shy;ский прое&shy;кт гру&shy;ппы компа&shy;ний
     |
     a(href='http://kokovikhin.digital/' target='_blank') Kokovikhin.Digital
 </template>
