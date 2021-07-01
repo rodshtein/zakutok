@@ -39,6 +39,7 @@ function getDuration(fileName, format = audioFormat){
 
 function paintChapters(fileName, format = audioFormat){
   let chapter = getAudioTags(fileName, format).chapter
+  if(!chapter || !chapter.length) return '';
 
   const chapters = chapter.reduce((prev, item) => {
       let title = item.tags.title
@@ -169,6 +170,53 @@ https://t.me/Koko3kote
         ${getFileTag('1')}
         ${getDuration('1')}
         ${paintChapters('1')}
+      </item>
+
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>2</itunes:episode>
+        <title>Диана Лютер, издатель, детский автор и предприниматель</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
+        <itunes:subtitle>Поговорили о книгах с Дианой Лютер</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>владивосток, книги, бизнес, чтение, издательство, литература, писатели</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/2.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu Jul 01 2021 18:00:00 GMT+1000</pubDate>
+        <description>
+Поговорили о книгах и издательстве с Дианой Лютер.
+
+Диана Лютер, издатель, детский автор и совладелица магазинов «Игра слов», «Лютература».
+
+«Игра слов» ставит для себя цель предложить не только популярную литературу, но и открыть для читателей книги порядка полусотни независимых издательств, а также десятки периодических изданий, которые практически не добираются до местного читателя, так как редко попадают на полки книжных супермаркетов.
+
+Гость выпуска:
+Диана Лютер
+
+Ведущие выпуска:
+Лида Чапко, Никита Новосёлов, Костя Коковихин
+
+Инстаграм Дианы:
+https://instagram.com/lyuter
+
+Инстаграм Игры слов:
+https://instagram.com/igraslov.bookstore
+
+Инстаграм Лютературы:
+https://instagram.com/lyuteratura
+
+Наш сайт:
+https://zakutokmedia.ru/gosuch
+
+Наш инстаграм:
+https://instagram.com/gosuchornotgosuch
+
+Пишите нам в Телеграм:
+https://t.me/Koko3kote
+        </description>
+        ${getFileTag('2')}
+        ${getDuration('2')}
+        ${paintChapters('2')}
       </item>
     </channel>
   </rss>`)

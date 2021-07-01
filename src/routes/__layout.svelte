@@ -22,6 +22,16 @@
 	<PreloadingIndicator/>
 {/if}
 
+<svelte:head>
+	<meta name="description" content="Подкастерск­ий за­кут­ок нера­внод­ушн­ых реб­ят из Вла­дивос­тока. Неко­ммерче­ский прое­кт гру­ппы компа­ний Kokovikhin.Digital">
+	<meta property="og:url" content="https://zakutok.media">
+	<meta property="og:title" content="Подкастерск­ий за­кут­ок нера­внод­ушн­ых реб­ят из Вла­дивос­тока.">
+	<meta property="og:description" content="Неко­ммерче­ский прое­кт гру­ппы компа­ний Kokovikhin.Digital">
+	<meta property="og:type" content="website">
+	<meta property="og:image:type" content="png">
+	<meta property="og:image" content="/logo.png">
+</svelte:head>
+
 <main>
 	<slot />
 </main>
