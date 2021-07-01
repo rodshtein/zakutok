@@ -182,7 +182,7 @@ https://t.me/Koko3kote
         <itunes:keywords>владивосток, книги, бизнес, чтение, издательство, литература, писатели</itunes:keywords>
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/2.jpg"/>
         <link>https://zakutokmedia.ru</link>
-        <pubDate>Thu Jul 01 2021 18:00:00 GMT+1000</pubDate>
+        <pubDate>Thu, 01 Jul 2021 18:00:00 GMT+1000</pubDate>
         <description>
 Поговорили о книгах и издательстве с Дианой Лютер.
 
