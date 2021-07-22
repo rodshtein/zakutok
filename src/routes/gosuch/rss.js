@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, statSync } from 'fs';
 import * as ID3Reader from 'node-id3';
 import * as prettydata from 'pretty-data';
+import * as normalize from 'normalize-html-whitespace';
 
 const siteUrl = 'https://zakutokmedia.ru/';
 const showUrl = 'shows/gosuch/';
@@ -18,6 +19,17 @@ function getAudioTags(fileName, format = audioFormat){
 
   ID3_cache[path] = tags
   return tags
+}
+
+function getDescription(text){
+  let html = `<![CDATA[${text}]]>`;
+  // let html = `<![CDATA[${normalize(text)}]]>`;
+  let description = `<description>${html}</description>`;
+  // we dublicate summary, because apple hides description if there is a summary
+  // but if we have no summary we cant see subtitle
+  // summary temporary disabled
+  let summary = `<itunes:summary>${html}</itunes:summary>`;
+   return description
 }
 
 function getFileTag(fileName, {
@@ -90,22 +102,22 @@ function buildFeed(){
       <itunes:title>Gosuch</itunes:title>
       <link>https://zakutokmedia.ru/gosuch</link>
       <atom:link href="https://zakutokmedia.ru/gosuch/rss" rel="self" type="application/rss+xml"/>
-      <description>
-Подкаст о людях, которые занимаются интересными делами.
-Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытаем.
+      ${getDescription(
+        `Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытаем.
+<br><br>
 
-Ведущие шоу:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
+<strong>Ведущие шоу:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
 
-Наш сайт:
-https://zakutokmedia.ru/gosuch
+<strong>Наш сайт:</strong><br>
+https://zakutokmedia.ru/gosuch<br>
 
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
+<strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
 
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-      </description>
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+      )}
       <image>
         <title>Gosuch Подкаст</title>
         <link>https://zakutokmedia.ru/gosuch</link>
@@ -144,29 +156,31 @@ https://t.me/Koko3kote
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/>
         <link>https://zakutokmedia.ru</link>
         <pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate>
-        <description>
-Поговорили о тканях с Наташей Балахонцевой.
+        ${getDescription(
+          `<strong>Поговорили о тканях с Наташей Балахонцевой.</strong>
+<br><br>
 
 У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
+<br><br>
 
-Гость выпуска:
-Наташа Балахонцева
+<strong>Гость выпуска:</strong><br>
+Наташа Балахонцева<br>
 
-Ведущие выпуска:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
+<strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
 
-Инстаграм «Мечты»:
-https://instagram.com/mechta_tkani
+<strong>Инстаграм «Мечты»:</strong><br>
+https://instagram.com/mechta_tkani<br>
 
-Наш сайт:
-https://zakutokmedia.ru/gosuch
+<strong>Наш сайт:</strong><br>
+https://zakutokmedia.ru/gosuch<br>
 
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
+<strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
 
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-        </description>
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
         ${getFileTag('1')}
         ${getDuration('1')}
         ${paintChapters('1')}
@@ -183,40 +197,87 @@ https://t.me/Koko3kote
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/2.jpg"/>
         <link>https://zakutokmedia.ru</link>
         <pubDate>Thu, 01 Jul 2021 18:00:00 GMT+1000</pubDate>
-        <description>
-Поговорили о книгах и издательстве с Дианой Лютер.
+        ${getDescription(
+          `<strong>Поговорили о книгах и издательстве с Дианой Лютер.</strong>
+<br><br>
 
 Диана Лютер, издатель, детский автор и совладелица магазинов «Игра слов», «Лютература».
+<br><br>
 
 «Игра слов» ставит для себя цель предложить не только популярную литературу, но и открыть для читателей книги порядка полусотни независимых издательств, а также десятки периодических изданий, которые практически не добираются до местного читателя, так как редко попадают на полки книжных супермаркетов.
+<br><br>
 
-Гость выпуска:
-Диана Лютер
+<strong>Гость выпуска:</strong><br>
+Диана Лютер<br>
 
-Ведущие выпуска:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
+<strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
 
-Инстаграм Дианы:
-https://instagram.com/lyuter
+<strong>Инстаграм Дианы:</strong><br>
+https://instagram.com/lyuter<br>
 
-Инстаграм Игры слов:
-https://instagram.com/igraslov.bookstore
+<strong>Инстаграм Игры слов:</strong><br>
+https://instagram.com/igraslov.bookstore<br>
 
-Инстаграм Лютературы:
-https://instagram.com/lyuteratura
+<strong>Инстаграм Лютературы:</strong><br>
+https://instagram.com/lyuteratura<br>
 
-Наш сайт:
-https://zakutokmedia.ru/gosuch
+<strong>Наш сайт:</strong><br>
+https://zakutok.media/gosuch<br>
 
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
+<strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
 
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-        </description>
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
         ${getFileTag('2')}
         ${getDuration('2')}
         ${paintChapters('2')}
+      </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>3</itunes:episode>
+        <title>Темно — спать, музыка — танцевать, кофе — пить!</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
+        <itunes:subtitle>Каталиной Школа, компания «Кафема»</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>владивосток, кофе, бизнес, бариста, турка, Кафема</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/3.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu, 22 Jul 2021 11:03:05 GMT+1000</pubDate>
+        ${getDescription(
+          `<strong>Темно — спать, музыка — танцевать, кофе — пить!</strong>
+<br><br>
+
+Болтаем с Каталиной из «Кафемы»: обсуждаем ритуалы, делимся наблюдениями, узнаём откуда кофе в «Кафеме», спрашиваем, что такое хороший и плохой кофе. Прикалываемся над чемпионом мира по варению кофе в турке.
+<br><br>
+
+
+<strong>Гость выпуска:</strong><br>
+Каталиной Школа, компания «Кафема»<br>
+
+<strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
+
+<strong>Инстаграм Каталины:</strong><br>
+https://instagram.com/katalina_more_coffee<br>
+
+<strong>Инстаграм Кафемы:</strong><br>
+https://www.instagram.com/kafema_coffee/<br>
+
+<strong>Наш сайт:</strong><br>
+https://zakutok.media/gosuch<br>
+
+<strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
+
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
+        ${getFileTag('3')}
+        ${getDuration('3')}
+        ${paintChapters('3')}
       </item>
     </channel>
   </rss>`)

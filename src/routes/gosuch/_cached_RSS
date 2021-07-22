@@ -1,68 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?><rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" ><channel><title>Gosuch</title><itunes:title>Gosuch</itunes:title><link>https://zakutokmedia.ru/gosuch</link><atom:link href="https://zakutokmedia.ru/gosuch/rss" rel="self" type="application/rss+xml"/><description>
-Подкаст о людях, которые занимаются интересными делами.
-Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытаем.
-
-Ведущие шоу:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
-
-Наш сайт:
-https://zakutokmedia.ru/gosuch
-
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
-
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-      </description><image><title>Gosuch Подкаст</title><link>https://zakutokmedia.ru/gosuch</link><url>https://zakutokmedia.ru/covers/gosuch.jpg</url></image><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><copyright>СС BY-NC-ND 4.0</copyright><language>ru</language><spotify:countryOfOrigin>ru</spotify:countryOfOrigin><managingEditor>kk@kokovikhin.digital (Костя Коковихин)</managingEditor><webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster><pubDate>Thu, 01 Jul 2021 08:51:19 GMT</pubDate><lastBuildDate>Thu, 01 Jul 2021 08:51:19 GMT</lastBuildDate><ttl>60</ttl><itunes:explicit>yes</itunes:explicit><itunes:type>episodic</itunes:type><itunes:owner><itunes:name>Zakutok Media</itunes:name><itunes:email>kk@kokovikhin.digital</itunes:email></itunes:owner><itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/><itunes:category text="Comedy"><itunes:category text="Comedy Interviews" /></itunes:category><itunes:category text="Business"><itunes:category text="Non-Profit" /></itunes:category><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>Пилотный выпуск</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate><description>
-Поговорили о тканях с Наташей Балахонцевой.
+<?xml version='1.0' encoding='UTF-8'?><rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" ><channel><title>Gosuch</title><itunes:title>Gosuch</itunes:title><link>https://zakutokmedia.ru/gosuch</link><atom:link href="https://zakutokmedia.ru/gosuch/rss" rel="self" type="application/rss+xml"/><description><![CDATA[Подкаст о людях, которые занимаются интересными делами. Мы ничего в этом не понимаем, поэтому вопросами глупыми их пытаем.
+<br><br><strong>Ведущие шоу:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br><strong>Наш сайт:</strong><br>
+https://zakutokmedia.ru/gosuch<br><strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br><strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote]]></description><image><title>Gosuch Подкаст</title><link>https://zakutokmedia.ru/gosuch</link><url>https://zakutokmedia.ru/covers/gosuch.jpg</url></image><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><copyright>СС BY-NC-ND 4.0</copyright><language>ru</language><spotify:countryOfOrigin>ru</spotify:countryOfOrigin><managingEditor>kk@kokovikhin.digital (Костя Коковихин)</managingEditor><webMaster>mz@kokovikhin.digital (Миша Родштейн)</webMaster><pubDate>Thu, 22 Jul 2021 11:22:51 GMT</pubDate><lastBuildDate>Thu, 22 Jul 2021 11:22:51 GMT</lastBuildDate><ttl>60</ttl><itunes:explicit>yes</itunes:explicit><itunes:type>episodic</itunes:type><itunes:owner><itunes:name>Zakutok Media</itunes:name><itunes:email>kk@kokovikhin.digital</itunes:email></itunes:owner><itunes:image href="https://zakutokmedia.ru/covers/gosuch.jpg"/><itunes:category text="Comedy"><itunes:category text="Comedy Interviews" /></itunes:category><itunes:category text="Business"><itunes:category text="Non-Profit" /></itunes:category><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>1</itunes:episode><title>Пилотный выпуск</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о тканях с Наташей Балахонцевой</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, ткани, бизнес, пошив, портной</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/1.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate><description><![CDATA[<strong>Поговорили о тканях с Наташей Балахонцевой.</strong><br><br>
 
 У Наташи есть «Мечта» — магазин тканей. Наташа пришла к нам и рассказала — с чего начинается мечта, зачем искать ткань в итальянской деревушке, и почему важно встретить своего мастера.
-
-Гость выпуска:
-Наташа Балахонцева
-
-Ведущие выпуска:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
-
-Инстаграм «Мечты»:
-https://instagram.com/mechta_tkani
-
-Наш сайт:
-https://zakutokmedia.ru/gosuch
-
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
-
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-        </description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/1.mp3"  length="23325166" type="audio/mpeg"/><itunes:duration>2898</itunes:duration><psc:chapters><psc:chapter start="00:06:25" title="Карьера" /><psc:chapter start="00:09:37" title="Кто идёт покупать ткани" /><psc:chapter start="00:13:51" title="Про потребности клиентов" /><psc:chapter start="00:16:06" title="Как и где закупают ткани" /><psc:chapter start="00:17:40" title="Про вкус" /><psc:chapter start="00:18:26" title="Почему Италия?" /><psc:chapter start="00:19:36" title="Инсайдерская информация" /><psc:chapter start="00:20:38" title="Ткани — это про офлайн" /><psc:chapter start="00:22:51" title="Про выбор тканей" /><psc:chapter start="00:24:31" title="Про стоимость пошива" /><psc:chapter start="00:26:00" title="Про процесс пошива" /><psc:chapter start="00:27:47" title="Про мастеров города" /><psc:chapter start="00:29:18" title="Рост популярности пошива" /><psc:chapter start="00:31:01" title="Как одеваются люди в городе" /><psc:chapter start="00:32:27" title="Популяризация пошива" /><psc:chapter start="00:33:19" title="Про «Первый раз»" /><psc:chapter start="00:36:55" title="Про экологию" /><psc:chapter start="00:37:53" title="«Гусиная лапка»" /><psc:chapter start="00:38:37" title="«Леопардин»" /><psc:chapter start="00:41:09" title="Вкусовщина и стереотипы" /></psc:chapters></item><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>2</itunes:episode><title>Диана Лютер, издатель, детский автор и предприниматель</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о книгах с Дианой Лютер</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, книги, бизнес, чтение, издательство, литература, писатели</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/2.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 01 Jul 2021 18:00:00 GMT+1000</pubDate><description>
-Поговорили о книгах и издательстве с Дианой Лютер.
+<br><br><strong>Гость выпуска:</strong><br>
+Наташа Балахонцева<br><strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br><strong>Инстаграм «Мечты»:</strong><br>
+https://instagram.com/mechta_tkani<br><strong>Наш сайт:</strong><br>
+https://zakutokmedia.ru/gosuch<br><strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br><strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote]]></description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/1.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/1.mp3"  length="23325166" type="audio/mpeg"/><itunes:duration>2898</itunes:duration><psc:chapters><psc:chapter start="00:06:25" title="Карьера" /><psc:chapter start="00:09:37" title="Кто идёт покупать ткани" /><psc:chapter start="00:13:51" title="Про потребности клиентов" /><psc:chapter start="00:16:06" title="Как и где закупают ткани" /><psc:chapter start="00:17:40" title="Про вкус" /><psc:chapter start="00:18:26" title="Почему Италия?" /><psc:chapter start="00:19:36" title="Инсайдерская информация" /><psc:chapter start="00:20:38" title="Ткани — это про офлайн" /><psc:chapter start="00:22:51" title="Про выбор тканей" /><psc:chapter start="00:24:31" title="Про стоимость пошива" /><psc:chapter start="00:26:00" title="Про процесс пошива" /><psc:chapter start="00:27:47" title="Про мастеров города" /><psc:chapter start="00:29:18" title="Рост популярности пошива" /><psc:chapter start="00:31:01" title="Как одеваются люди в городе" /><psc:chapter start="00:32:27" title="Популяризация пошива" /><psc:chapter start="00:33:19" title="Про «Первый раз»" /><psc:chapter start="00:36:55" title="Про экологию" /><psc:chapter start="00:37:53" title="«Гусиная лапка»" /><psc:chapter start="00:38:37" title="«Леопардин»" /><psc:chapter start="00:41:09" title="Вкусовщина и стереотипы" /></psc:chapters></item><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>2</itunes:episode><title>Диана Лютер, издатель, детский автор и предприниматель</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Поговорили о книгах с Дианой Лютер</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, книги, бизнес, чтение, издательство, литература, писатели</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/2.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 01 Jul 2021 18:00:00 GMT+1000</pubDate><description><![CDATA[<strong>Поговорили о книгах и издательстве с Дианой Лютер.</strong><br><br>
 
 Диана Лютер, издатель, детский автор и совладелица магазинов «Игра слов», «Лютература».
+<br><br>
 
 «Игра слов» ставит для себя цель предложить не только популярную литературу, но и открыть для читателей книги порядка полусотни независимых издательств, а также десятки периодических изданий, которые практически не добираются до местного читателя, так как редко попадают на полки книжных супермаркетов.
+<br><br><strong>Гость выпуска:</strong><br>
+Диана Лютер<br><strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br><strong>Инстаграм Дианы:</strong><br>
+https://instagram.com/lyuter<br><strong>Инстаграм Игры слов:</strong><br>
+https://instagram.com/igraslov.bookstore<br><strong>Инстаграм Лютературы:</strong><br>
+https://instagram.com/lyuteratura<br><strong>Наш сайт:</strong><br>
+https://zakutok.media/gosuch<br><strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br><strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote]]></description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/2.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/2.mp3"  length="40227119" type="audio/mpeg"/><itunes:duration>4931</itunes:duration><psc:chapters><psc:chapter  title="Go!" /></psc:chapters></item><item><itunes:episodeType>full</itunes:episodeType><itunes:episode>3</itunes:episode><title>Темно — спать, музыка — танцевать, кофе — пить!</title><itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author><itunes:subtitle>Каталиной Школа, компания «Кафема»</itunes:subtitle><itunes:explicit>yes</itunes:explicit><itunes:keywords>владивосток, кофе, бизнес, бариста, турка, Кафема</itunes:keywords><itunes:image href="https://zakutokmedia.ru/shows/gosuch/3.jpg"/><link>https://zakutokmedia.ru</link><pubDate>Thu, 22 Jul 2021 11:03:05 GMT+1000</pubDate><description><![CDATA[<strong>Темно — спать, музыка — танцевать, кофе — пить!</strong><br><br>
 
-Гость выпуска:
-Диана Лютер
-
-Ведущие выпуска:
-Лида Чапко, Никита Новосёлов, Костя Коковихин
-
-Инстаграм Дианы:
-https://instagram.com/lyuter
-
-Инстаграм Игры слов:
-https://instagram.com/igraslov.bookstore
-
-Инстаграм Лютературы:
-https://instagram.com/lyuteratura
-
-Наш сайт:
-https://zakutokmedia.ru/gosuch
-
-Наш инстаграм:
-https://instagram.com/gosuchornotgosuch
-
-Пишите нам в Телеграм:
-https://t.me/Koko3kote
-        </description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/2.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/2.mp3"  length="39839741" type="audio/mpeg"/><itunes:duration>4931</itunes:duration></item></channel></rss>
+Болтаем с Каталиной из «Кафемы»: обсуждаем ритуалы, делимся наблюдениями, узнаём откуда кофе в «Кафеме», спрашиваем, что такое хороший и плохой кофе. Прикалываемся над чемпионом мира по варению кофе в турке.
+<br><br><strong>Гость выпуска:</strong><br>
+Каталиной Школа, компания «Кафема»<br><strong>Ведущие выпуска:</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br><strong>Инстаграм Каталины:</strong><br>
+https://instagram.com/katalina_more_coffee<br><strong>Инстаграм Кафемы:</strong><br>
+https://www.instagram.com/kafema_coffee/<br><strong>Наш сайт:</strong><br>
+https://zakutok.media/gosuch<br><strong>Наш инстаграм:</strong><br>
+https://instagram.com/gosuchornotgosuch<br><strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote]]></description><guid isPermaLink="true">https://zakutokmedia.ru/shows/gosuch/3.mp3</guid><enclosure url="https://zakutokmedia.ru/shows/gosuch/3.mp3"  length="40074029" type="audio/mpeg"/><itunes:duration>4906</itunes:duration><psc:chapters><psc:chapter  title="Разгоны" /><psc:chapter start="00:05:13" title="Гостья" /><psc:chapter start="00:06:01" title="А что это за Девушка" /><psc:chapter start="00:07:00" title="Кофейные чемпионаты и судейство" /><psc:chapter start="00:08:19" title="Альтернатива, классика и вкусы " /><psc:chapter start="00:10:28" title="Про кофейный снобизм" /><psc:chapter start="00:14:44" title="Как угодить вкусу гостя" /><psc:chapter start="00:20:17" title="Запросы гостей и правильная вода" /><psc:chapter start="00:24:47" title="Почему вкус всегда разный?" /><psc:chapter start="00:29:25" title="Отбор кофе, плантации Сальвадора, конкурсы, аукционы" /><psc:chapter start="00:33:21" title="Про кофейных фермеров" /><psc:chapter start="00:37:06" title="Мыш (крадеться) — проблемы и традиции фермеров" /><psc:chapter start="00:41:31" title="Где выращивают кофе и крутые корейцы" /><psc:chapter start="00:45:06" title="Кофе ради стаканчика, престиж напитка" /><psc:chapter start="01:00:42" title="Про кофейные чемпионаты и курсы" /><psc:chapter start="01:05:30" title="Как готовить и пить кофе дома" /><psc:chapter start="01:07:59" title="Про критику коллег" /><psc:chapter start="01:09:41" title="Кофейная индустрия РФ" /><psc:chapter start="01:13:16" title="Топ кофеен города (нет)" /><psc:chapter start="01:15:27" title="Как выбрать свой кофе" /></psc:chapters></item></channel></rss>
