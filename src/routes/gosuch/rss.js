@@ -235,6 +235,7 @@ https://t.me/Koko3kote`
         ${getDuration('2')}
         ${paintChapters('2')}
       </item>
+
       <item>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>3</itunes:episode>
@@ -278,6 +279,69 @@ https://t.me/Koko3kote`
         ${getFileTag('3')}
         ${getDuration('3')}
         ${paintChapters('3')}
+      </item>
+
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>4</itunes:episode>
+        <title>Она сделала «ПУСК»!</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
+        <itunes:subtitle>Катя Беляева, создатель «Пусков» и программы Digital Art в ДВФУ</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>владивосток, кофе, бизнес, бариста, турка, Кафема</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/4.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu, 19 Aug 2021 15:59:27 GMT+1000</pubDate>
+        ${getDescription(
+          `<strong>Она сделала «ПУСК»!</strong>
+<br><br>
+
+В гостях Катя Беляева. Катя Руководитель Центра новых образовательных программ в НИТУ «МИСиС». Основатель первой в России магистратуры Digital Art в ДВФУ и создатель фестиваля «ПУСК» о котором не слышал только Костя. Мы поговорили о современных учебных программах, технологиях, фестивалях «Пуск», чем Катя занимается сейчас.
+<br><br>
+
+
+<strong>Гость выпуска</strong><br>
+Катя Беляева, создатель «Пусков» и программы Digital Art в ДВФУ<br>
+
+<strong>Ведущие выпуска</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
+
+<strong>Инстаграм Кати</strong><br>
+https://www.instagram.com/5th_november<br>
+
+<strong>Digital Art в ДВФУ</strong><br>
+https://www.instagram.com/da.fefu<br>
+
+<strong>Арттех в МИСИС</strong><br>
+https://www.instagram.com/arttech.misis<br>
+
+<strong>Фестивали ПУСК</strong><br>
+https://www.instagram.com/pusk.team<br>
+
+<strong>Фестивали ПУСК</strong><br>
+https://www.instagram.com/pusk.team<br>
+
+<strong>Фильм «ЭКСПЕДИЦИЯ»</strong><br>
+https://www.youtube.com/watch?v=vwvtmzlLU70<br>
+
+<strong>Про Путина (Катя на 26-й минуте)</strong><br>
+http://kremlin.ru/events/president/transcripts/56000/videos<br>
+
+<strong>Position #2</strong><br>
+https://www.youtube.com/watch?v=LNSrcNj5zgk<br>
+
+<strong>Наш сайт</strong><br>
+https://zakutok.media/gosuch<br>
+
+<strong>Наш инстаграм</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
+
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
+        ${getFileTag('4')}
+        ${getDuration('4')}
+        ${paintChapters('4')}
       </item>
     </channel>
   </rss>`)
