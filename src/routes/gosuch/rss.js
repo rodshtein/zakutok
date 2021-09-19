@@ -288,7 +288,7 @@ https://t.me/Koko3kote`
         <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
         <itunes:subtitle>Катя Беляева, создатель «Пусков» и программы Digital Art в ДВФУ</itunes:subtitle>
         <itunes:explicit>yes</itunes:explicit>
-        <itunes:keywords>владивосток, кофе, бизнес, бариста, турка, Кафема</itunes:keywords>
+        <itunes:keywords>Владивосток, фестивали, современное искусство, ДВФУ, МИСиС</itunes:keywords>
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/4.jpg"/>
         <link>https://zakutokmedia.ru</link>
         <pubDate>Thu, 19 Aug 2021 15:59:27 GMT+1000</pubDate>
@@ -342,6 +342,53 @@ https://t.me/Koko3kote`
         ${getFileTag('4')}
         ${getDuration('4')}
         ${paintChapters('4')}
+      </item>
+
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>5</itunes:episode>
+        <title>DESIGN WEEK — или «Не опять, а снова!»</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов</itunes:author>
+        <itunes:subtitle>Юлия и Даниэлла, организаторы Vladivostok Design Week</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>Владивосток, фестивали, современное искусство, Design Week</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/5.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Sun, 19 Sep 2021 14:19:13 GMT+1000</pubDate>
+        ${getDescription(
+          `<strong>DESIGN WEEK — или «Не опять, а снова!!</strong>
+<br><br>
+
+Говорим с девочками о том, как делается самое знаковое событие года про дизайн во Владивостоке.
+<br><br>
+
+<strong>Гость выпуска</strong><br>
+КЮлия и Даниэлла, организаторы Vladivostok Design Week<br>
+
+<strong>Ведущие выпуска</strong><br>
+Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
+
+<strong>Инстаграм VDW</strong><br>
+https://www.instagram.com/vladivostokdesignweek/<br>
+
+<strong>Инстаграм Даниэллы</strong><br>
+https://www.instagram.com/daniela_pika_design/<br>
+
+<strong>Инстаграм Юли</strong><br>
+https://www.instagram.com/yuliameshkova/<br>
+
+<strong>Наш сайт</strong><br>
+https://zakutok.media/gosuch<br>
+
+<strong>Наш инстаграм</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
+
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
+        ${getFileTag('5')}
+        ${getDuration('5')}
+        ${paintChapters('5')}
       </item>
     </channel>
   </rss>`)
