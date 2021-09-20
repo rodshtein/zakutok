@@ -369,19 +369,19 @@ https://t.me/Koko3kote`
 Лида Чапко, Никита Новосёлов<br><br><br>
 
 <strong>Инстаграм VDW</strong><br>
-https://www.instagram.com/vladivostokdesignweek/<br><br>
+https://www.instagram.com/vladivostokdesignweek/<br>
 
-<strong>Инстаграм Даниэллы</strong><br>
-https://www.instagram.com/daniela_pika_design/<br><br>
+<strong>Инстаграм Даниэлы</strong><br>
+https://www.instagram.com/daniela_pika_design/<br>
 
 <strong>Инстаграм Юли</strong><br>
 https://www.instagram.com/yuliameshkova/<br><br><br>
 
 <strong>Наш сайт</strong><br>
-https://zakutok.media/gosuch<br><br>
+https://zakutok.media/gosuch<br>
 
 <strong>Наш инстаграм</strong><br>
-https://instagram.com/gosuchornotgosuch<br><br>
+https://instagram.com/gosuchornotgosuch<br>
 
 <strong>Пишите нам в Телеграм:</strong><br>
 https://t.me/Koko3kote`
