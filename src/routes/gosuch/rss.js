@@ -347,41 +347,41 @@ https://t.me/Koko3kote`
       <item>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>5</itunes:episode>
-        <title>DESIGN WEEK — или «Не опять, а снова!»</title>
+        <title>VLADIVOSTOK DESIGN WEEK — не опять, а снова!</title>
         <itunes:author>Лида Чапко, Никита Новосёлов</itunes:author>
-        <itunes:subtitle>Юлия и Даниэлла, организаторы Vladivostok Design Week</itunes:subtitle>
+        <itunes:subtitle>Юлия и Даниэла, организаторы Vladivostok Design Week</itunes:subtitle>
         <itunes:explicit>yes</itunes:explicit>
-        <itunes:keywords>Владивосток, фестивали, современное искусство, Design Week</itunes:keywords>
+        <itunes:keywords>Владивосток, фестивали, современное искусство, Vladivostok Design Week</itunes:keywords>
         <itunes:image href="https://zakutokmedia.ru/shows/gosuch/5.jpg"/>
         <link>https://zakutokmedia.ru</link>
         <pubDate>Sun, 19 Sep 2021 14:19:13 GMT+1000</pubDate>
         ${getDescription(
-          `<strong>DESIGN WEEK — или «Не опять, а снова!!</strong>
+          `<strong>VLADIVOSTOK DESIGN WEEK — не опять, а снова!</strong>
 <br><br>
 
 Говорим с девочками о том, как делается самое знаковое событие года про дизайн во Владивостоке.
 <br><br>
 
-<strong>Гость выпуска</strong><br>
-КЮлия и Даниэлла, организаторы Vladivostok Design Week<br>
+<strong>Гости выпуска</strong><br>
+Юлия и Даниэла, организаторы Vladivostok Design Week<br>
 
 <strong>Ведущие выпуска</strong><br>
-Лида Чапко, Никита Новосёлов, Костя Коковихин<br>
+Лида Чапко, Никита Новосёлов<br><br><br>
 
 <strong>Инстаграм VDW</strong><br>
-https://www.instagram.com/vladivostokdesignweek/<br>
+https://www.instagram.com/vladivostokdesignweek/<br><br>
 
 <strong>Инстаграм Даниэллы</strong><br>
-https://www.instagram.com/daniela_pika_design/<br>
+https://www.instagram.com/daniela_pika_design/<br><br>
 
 <strong>Инстаграм Юли</strong><br>
-https://www.instagram.com/yuliameshkova/<br>
+https://www.instagram.com/yuliameshkova/<br><br><br>
 
 <strong>Наш сайт</strong><br>
-https://zakutok.media/gosuch<br>
+https://zakutok.media/gosuch<br><br>
 
 <strong>Наш инстаграм</strong><br>
-https://instagram.com/gosuchornotgosuch<br>
+https://instagram.com/gosuchornotgosuch<br><br>
 
 <strong>Пишите нам в Телеграм:</strong><br>
 https://t.me/Koko3kote`
