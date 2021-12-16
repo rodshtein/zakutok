@@ -390,6 +390,65 @@ https://t.me/Koko3kote`
         ${getDuration('5')}
         ${paintChapters('5')}
       </item>
+
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>6</itunes:episode>
+        <title>Феликс Машков и Галя Цесарская — Нагорный парк</title>
+        <itunes:author>Лида Чапко, Никита Новосёлов и Костя Коковихин</itunes:author>
+        <itunes:subtitle>Кто заведует горой за 120 миллионов?</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>Владивосток, среда, урбанистика, парки, рекреационные зоны</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/6.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu, 16 Dec 2021 12:43:59 GMT+1000</pubDate>
+        ${getDescription(
+          `<strong>Феликс Машков и Галя Цесарская — Нагорный парк</strong>
+<br><br>
+
+Встречайте новых гостей Гоусача: Феликс Машков - Concrete Jungle Галя Цесарская - Менеджер Нагорного парка
+<br><br>
+
+Самые горячие темы выпуска:<br>
+− Как потратить 120 🍋 − Хозяин горы и его тайны<br>
+− Белки по 300<br>
+− Фэйлы<br>
+− Сколько вы зарабатываете?<br>
+− УРНЫ?!<br>
+− ПАРКОВКИ!!<br>
+<br><br>
+
+<strong>Гости выпуска</strong><br>
+Феликс Машков, Галя Цесарская<br>
+
+<strong>Ведущие выпуска</strong><br>
+Лида Чапко, Никита Новосёлов и Костя Коковихин<br><br><br>
+
+<strong>Нагорный парк</strong><br>
+https://www.instagram.com/nagorny.park/<br>
+
+<strong>Concrete Jungle</strong><br>
+https://www.instagram.com/cjungle_urban/<br>
+
+<strong>Феликс</strong><br>
+https://www.instagram.com/felikscj/<br>
+
+<strong>Галя</strong><br>
+https://www.instagram.com/galacaesar/<br><br><br>
+
+<strong>Наш сайт</strong><br>
+https://zakutok.media/gosuch<br>
+
+<strong>Наш инстаграм</strong><br>
+https://instagram.com/gosuchornotgosuch<br>
+
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
+        ${getFileTag('6')}
+        ${getDuration('6')}
+        ${paintChapters('6')}
+      </item>
     </channel>
   </rss>`)
 
