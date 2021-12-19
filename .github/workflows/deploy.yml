@@ -9,18 +9,32 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - run: npm i
+      - run: npm run build
+
+      # Setup key
+      - run: set -eu
+      - run: mkdir "$HOME/.ssh"
+      - run: echo "${{ secrets.DEV_KEY }}" > "$HOME/.ssh/DEV_KEY"
+      - run: chmod 600 "$HOME/.ssh/DEV_KEY"
+
+      # Deploy bild
+      - run: rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --progress --exclude={".*/","node_modules"}  --archive --compress --delete . admin@5.53.125.79:/var/www/royal/
+
+
       # Git pull and restart app
       - name: git pull on sever
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
             cd /var/www/zakutok
-            git reset --hard HEAD
-            git clean -f -d
-            git pull
             npm install
-            pm2 delete all
-            pm2 start ecosystem.config.cjs
+            pm2 restart all
           host: 82.148.28.242
           username: root
           privateKey: ${{ secrets.DEV_KEY }}
