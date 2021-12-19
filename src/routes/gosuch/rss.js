@@ -251,7 +251,7 @@ https://t.me/Koko3kote`
           `<strong>Темно — спать, музыка — танцевать, кофе — пить!</strong>
 <br><br>
 
-Болтаем с Каталиной из «Кафемы»: обсуждаем ритуалы, делимся наблюдениями, узнаём откуда кофе в «Кафеме», спрашиваем, .что такое хороший и плохой кофе. Прикалываемся над чемпионом мира по варению кофе в турке.
+Болтаем с Каталиной из «Кафемы»: обсуждаем ритуалы, делимся наблюдениями, узнаём откуда кофе в «Кафеме», спрашиваем, что такое хороший и плохой кофе. Прикалываемся над чемпионом мира по варению кофе в турке.
 <br><br>
 
 
@@ -429,33 +429,34 @@ https://t.me/Koko3kote`
 
 
 <strong>Гости выпуска</strong><br>
-Феликс Машков, Галя Цесарская<br>
+Феликс Машков, Галя Цесарская<br><br>
 
 <strong>Выпуск готовили</strong><br>
-Ведущие: Лида Чапко, Никита Новосёлов и Костя Коковихин<br>
-Продюсер, оператор, монтаж видео и работа со звуком: Миша Родштейн<br>
+Ведущие: Лида Чапко, Никита Новосёлов и Костя Коковихин<br><br>
+Продюсер, оператор, монтаж видео и работа со звуком: Миша Родштейн<br><br>
+
 Фото: Никита Долгачев<br>
 
 <strong>Нагорный парк</strong><br>
-https://www.instagram.com/nagorny.park/<br>
+https://www.instagram.com/nagorny.park/<br><br>
 
 <strong>Concrete Jungle</strong><br>
-https://www.instagram.com/cjungle_urban/<br>
+https://www.instagram.com/cjungle_urban/<br><br>
 
 <strong>Феликс</strong><br>
-https://www.instagram.com/felikscj/<br>
+https://www.instagram.com/felikscj/<br><br>
 
 <strong>Галя</strong><br>
 https://www.instagram.com/galacaesar/<br><br><br>
 
 <strong>Наш сайт</strong><br>
-https://zakutok.media/gosuch<br>
+https://zakutok.media/gosuch<br><br>
 
 <strong>Наш Инстаграм</strong><br>
-https://instagram.com/gosuchornotgosuch<br>
+https://instagram.com/gosuchornotgosuch<br><br>
 
 <strong>Смотрите на Ютюбе</strong><br>
-https://youtu.be/hBFLttUCczA<br>
+https://youtu.be/hBFLttUCczA<br><br>
 
 <strong>Пишите нам в Телеграм:</strong><br>
 https://t.me/Koko3kote`
