@@ -468,13 +468,13 @@ https://t.me/Koko3kote`
     </channel>
   </rss>`)
 
-
+  console.log(feed)
   try {
     writeFileSync("src/routes/gosuch/_cached_RSS", feed)
   } catch (err) {
     console.error(err)
   }
-
+  console.log(feed)
   return feed
 };
 
