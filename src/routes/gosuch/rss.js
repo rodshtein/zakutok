@@ -94,7 +94,7 @@ function getRssFeed(){
 }
 
 function buildFeed(){
-  const feed = prettydata.pd.xmlmin(`<?xml version='1.0' encoding='UTF-8'?>
+  const feed = (`<?xml version='1.0' encoding='UTF-8'?>
     <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="https://search.yahoo.com/mrss/" xmlns:dcterms="https://purl.org/dc/terms/" xmlns:spotify="https://www.spotify.com/ns/rss" xmlns:psc="https://podlove.org/simple-chapters/" >
     <channel>
       <title>Gosuch</title>
