@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "site",
       cwd: "/var/www/zakutok/",
-      script: "node build",
+      script: "node dev",
       instances: 1,
       watch: false,
       watch_delay: 5000,
