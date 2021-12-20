@@ -10,7 +10,12 @@ const dev = mode === 'development';
 const config = {
 	kit: {
 		target: '#svelte',
-		adapter: adapter(),
+		adapter: adapter({
+			env: {
+				host: '127.0.0.1',
+				port: 3000,
+			}
+		}),
 		vite: {
 			plugins: [imagetools({force: true})]
 		}

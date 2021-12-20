@@ -2,3 +2,5 @@
 .env
 node_modules
 /functions
+.svelte-kit
+build/assets
