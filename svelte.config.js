@@ -7,7 +7,7 @@ import adapter from '@sveltejs/adapter-node';
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 
-const config = {
+export default {
 	kit: {
 		target: '#svelte',
 		adapter: adapter({
@@ -26,5 +26,3 @@ const config = {
 		postcss: true,
 	})
 };
-
-export default config;
