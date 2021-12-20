@@ -24,7 +24,7 @@ jobs:
       - run: chmod 600 "$HOME/.ssh/DEV_KEY"
 
       # Deploy bild
-      - run: rsync -e -O "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --progress --exclude={".*/","node_modules"}  --archive --compress --delete . admin@82.148.28.242:/var/www/zakutok/
+      - run: rsync -e "ssh -i $HOME/.ssh/DEV_KEY -o StrictHostKeyChecking=no" --progress --exclude={".*/","node_modules"}  --archive --compress --delete . admin@82.148.28.242:/var/www/zakutok/
 
 
       # Git pull and restart app
