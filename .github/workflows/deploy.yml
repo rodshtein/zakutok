@@ -34,7 +34,8 @@ jobs:
           command: |
             cd /var/www/zakutok
             npm i --force
-            pm2 restart all
+            pm2 stop all
+            pm2 start all
           host: 82.148.28.242
           username: admin
           privateKey: ${{ secrets.DEV_KEY }}

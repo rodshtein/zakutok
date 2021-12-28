@@ -3,9 +3,9 @@
 </script>
 
 <script>
-import PhotoKostia from '../../../static/team/kostia.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoLida from '../../../static/team/lida.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoNikita from '../../../static/team/nikita.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoKostia from '$lib/team/kostia.png?w=120;240&srcset'
+import PhotoLida from '$lib/team/lida.png?w=120;240&srcset'
+import PhotoNikita from '$lib/team/nikita.png?w=120;240&srcset'
 </script>
 
 <svelte:head>

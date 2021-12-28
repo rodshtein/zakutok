@@ -2,6 +2,7 @@
 import { imagetools } from "vite-imagetools"
 import sveltePreprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-node';
+import path from 'path';
 
 
 const mode = process.env.NODE_ENV;
@@ -17,7 +18,12 @@ export default {
 			}
 		}),
 		vite: {
-			plugins: [imagetools({force: true})]
+			plugins: [imagetools()],
+			resolve: {
+				alias: {
+					$static: path.resolve('src/static')
+				}
+			},
 		}
 	},
 	preprocess: sveltePreprocess({

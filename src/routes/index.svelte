@@ -3,13 +3,45 @@
 </script>
 
 <script>
-import PhotoTim from '../../static/team/tim.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoKostia from '../../static/team/kostia.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoLida from '../../static/team/lida.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoNikita from '../../static/team/nikita.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoMisha from '../../static/team/misha.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoNatasha from '../../static/team/natasha.png?w=120;240&format=webp;avif;jpg&srcset'
-import PhotoAlena from '../../static/team/alena.png?w=120;240&format=webp;avif;jpg&srcset'
+import PhotoTim from '$lib/team/tim.png?width=120;240&srcset'
+import PhotoKostia from '$lib/team/kostia.png?width=120;240&srcset'
+import PhotoLida from '$lib/team/lida.png?width=120;240&srcset'
+import PhotoNikita from '$lib/team/nikita.png?width=120;240&srcset'
+import PhotoMisha from '$lib/team/misha.png?width=120;240&srcset'
+import PhotoNatasha from '$lib/team/natasha.png?width=120;240&srcset'
+import PhotoAlena from '$lib/team/alena.png?width=120;240&srcset'
+
+
+
+// import PhotoTim from '$lib/team/tim.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoKostia from '$lib/team/kostia.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoLida from '$lib/team/lida.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoNikita from '$lib/team/nikita.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoMisha from '$lib/team/misha.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoNatasha from '$lib/team/natasha.png?width=120;240&format=webp;avif;jpg&srcset'
+// import PhotoAlena from '$lib/team/alena.png?width=120;240&format=webp;avif;jpg&srcset'
+
+
+// TODO переделать инклюд картинок
+// https://github.com/JonasKruckenberg/imagetools/issues/260
+// https://github.com/svelteschool/summit-fall-2021/blob/main/src/lib/speakers/Speakers.svelte#L19
+
+// const sortImage = (acc, img) => {
+//     acc[img.format].push(img)
+//     return acc;
+//   }
+
+// const imageStructure = () => ({ avif: [], webp: [], jpg: []})
+
+// const imageMap = new Map([
+//     ['PhotoTim', PhotoTim.reduce(sortImage, imageStructure())],
+//     ['PhotoKostia', PhotoKostia.reduce(sortImage, imageStructure())],
+//     ['PhotoLida', PhotoLida.reduce(sortImage, imageStructure())],
+//     ['PhotoNikita', PhotoNikita.reduce(sortImage, imageStructure())],
+//     ['PhotoMisha', PhotoMisha.reduce(sortImage, imageStructure())],
+//     ['PhotoNatasha', PhotoNatasha.reduce(sortImage, imageStructure())],
+//     ['PhotoAlena', PhotoAlena.reduce(sortImage, imageStructure())],
+//   ])
 </script>
 
 <svelte:head>
@@ -99,7 +131,7 @@ section#gosuch.podcast
     a(href='https://www.youtube.com/playlist?list=PL1n0DH3VhKrxbBd4XTY8dGk79_uWtgo1w' target='_blank') YouTube
     a(href='https://podcasts.apple.com/us/podcast/gosuch/id1570029023' target='_blank') Apple Podcasts
     a(href='https://music.yandex.ru/album/15843216' target='_blank') Я.Музыка
-    a(href='https://podcasts.google.com/feed/aHR0cHM6Ly96YWt1dG9rbWVkaWEucnUvZ29zdWNoL3Jzcw==' target='_blank') Google Podcasts
+    a(href='https://podcasts.google.com/feed/aHR0cHM6Ly96YWt1dG9rbWVkaWEucnUvZ29zdWNoL3Jzcwidth==' target='_blank') Google Podcasts
     a(href='https://open.spotify.com/show/3CHBF0gw04uwxM6ESqlz2j' target='_blank') Spotify
     a(href='https://pca.st/bmpwc9yv' target='_blank') Pocket Casts
     a(href='https://overcast.fm/itunes1570029023/gosuch' target='_blank') Overcast

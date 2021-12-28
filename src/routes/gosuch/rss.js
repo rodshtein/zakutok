@@ -456,7 +456,7 @@ https://zakutok.media/gosuch<br><br>
 https://instagram.com/gosuchornotgosuch<br><br>
 
 <strong>Смотрите на Ютюбе</strong><br>
-https://youtu.be/hBFLttUCczA<br><br>
+https://youtu.be/UlbqcClePZ4<br><br>
 
 <strong>Пишите нам в Телеграм:</strong><br>
 https://t.me/Koko3kote`
@@ -464,6 +464,62 @@ https://t.me/Koko3kote`
         ${getFileTag('6')}
         ${getDuration('6')}
         ${paintChapters('6')}
+      </item>
+
+      <item>
+        <itunes:episodeType>bonus</itunes:episodeType>
+        <itunes:episode>6</itunes:episode>
+        <title>Нагорный парк | Бонус - Отвечаем на вопросы</title>
+        <itunes:author>Костя Коковихин</itunes:author>
+        <itunes:subtitle>Отвечаем на вопросы</itunes:subtitle>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:keywords>Владивосток, среда, урбанистика, парки, рекреационные зоны</itunes:keywords>
+        <itunes:image href="https://zakutokmedia.ru/shows/gosuch/б.1.jpg"/>
+        <link>https://zakutokmedia.ru</link>
+        <pubDate>Thu, 28 Dec 2021 10:00:00 GMT+1000</pubDate>
+        ${getDescription(
+          `<strong>Бонус - Галя Цесарская — Нагорный парк</strong>
+<br><br>
+
+Галя Цесарская - отвечает на самые распространённые вопросы гостей парка
+<br><br>
+
+Подписывайтесь чтобы не пропустить, ставьте лайки и комментируйте.  У нас маленькая команда и мы тратим много сил, денег и времени на создание наших проектов, это не приносит нам выгоды, поэтому нам очень важна любая обратная связь от вас, ребята ❤️❤️❤️
+<br><br>
+
+
+
+<strong>Гости выпуска</strong><br>
+Галя Цесарская<br><br>
+
+<strong>Выпуск готовили</strong><br>
+Ведущий: Костя Коковихин<br><br>
+Продюсер, оператор, монтаж видео: Миша Родштейн<br><br>
+Сведение и мастеринг: Александр Половцев<br><br>
+
+Фото: Никита Долгачев<br>
+
+<strong>Нагорный парк</strong><br>
+https://www.instagram.com/nagorny.park/<br><br>
+
+<strong>Concrete Jungle</strong><br>
+https://www.instagram.com/cjungle_urban/<br><br>
+
+<strong>Галя</strong><br>
+https://www.instagram.com/galacaesar/<br><br><br>
+
+<strong>Наш сайт</strong><br>
+https://zakutok.media/gosuch<br><br>
+
+<strong>Наш Инстаграм</strong><br>
+https://instagram.com/gosuchornotgosuch<br><br>
+
+<strong>Пишите нам в Телеграм:</strong><br>
+https://t.me/Koko3kote`
+        )}
+        ${getFileTag('6s')}
+        ${getDuration('6s')}
+        ${paintChapters('6s')}
       </item>
     </channel>
   </rss>`)
